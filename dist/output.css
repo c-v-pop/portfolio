@@ -513,14 +513,42 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+.static {
+  position: static;
 }
 
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+.fixed {
+  position: fixed;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-lg {
@@ -528,15 +556,28 @@ video {
   line-height: 1.75rem;
 }
 
-.text-blue-400 {
+.text-blue-600 {
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
-h1 {
-  margin: auto;
+a {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+a:hover {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  background: url("/images/background.webp") no-repeat fixed center;
 }

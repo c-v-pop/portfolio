@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    @apply text-lg text-blue-400 m-auto;
+a {
+    @apply text-lg text-blue-600 hover:animate-pulse;
 }
+
+body {
+    background: url("/images/background.webp") no-repeat fixed center;
+  }
