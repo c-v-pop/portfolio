@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 header a {
-    @apply hover:underline underline-offset-8 hover:text-white hover:uppercase;
+    @apply hover:cursor-pointer hover:text-white hover:uppercase hover:bg-black rounded-2xl;
 }
 ul a {
     @apply text-lg text-white px-5 rounded mb-2 hover:bg-red-400 hover:ring ring-pink-500 ring-offset-2;
@@ -11,7 +11,14 @@ ul a {
 ul {
     @apply mx-10
 }
+ul p {
+   @apply break-words;
+    }
 body {
     margin: 0;
     padding: 0;
+  }
+
+  h2 {
+    @apply my-5
   }
