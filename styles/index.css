@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-    @apply text-lg text-blue-600 hover:animate-pulse;
+header a {
+    @apply hover:underline underline-offset-8 hover:text-white hover:uppercase;
 }
-
+ul a {
+    @apply text-lg text-white px-5 rounded mb-2 hover:bg-red-400 hover:ring ring-pink-500 ring-offset-2;
+}
+ul {
+    @apply mx-10
+}
 body {
-    background: url("/images/background.webp") no-repeat fixed center;
+    margin: 0;
+    padding: 0;
   }
