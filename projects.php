@@ -8,18 +8,9 @@
     <title>Projects</title>
 </head>
 <body>
-    <section>
-    <div class="flex">
-        <h1>These are my Projects</h1>
+    <div class="bg-red">
+        <h1>Hello there, <br> I'm Ciprian Pop, <br> and I'm a Web Developer   
+        </h1>
     </div>
-    <ul>
-        <li>Reservia</li>
-        <li>OhMyFood</li>
-        <li>GoMike</li>
-        <li>Kanap</li>
-        <li>Piquante</li>
-        <li>Groupomania</li>
-    </ul>
-    </section>
 </body>
 </html>
