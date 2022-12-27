@@ -17,8 +17,8 @@
             <a href="" class="py-5 px-10 text-2xl">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl">E-mail</a>
         </nav>
-        <div class="flex flex-row bg-slate-600 m-10 p-5">
-            <img class="w-44 mr-auto rounded-full" src="images/webdeveloper.jpg" alt="logo">     
+        <div class="flex flex-row-reverse bg-slate-600 m-10 p-5 rounded-xl">
+            <img class="ml-auto rounded-xl w-1/4 p-5 h-1/6" src="images/avatar.webp" alt="logo">     
         <div class="mb-4">
             <h1 class="p-2 text-4xl font-serif">Hello there! <br> I'm Ciprian Pop, <br> and I'm a Web developer</h1>
             <p>I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
@@ -27,33 +27,41 @@
         </div>
             </div>
     </header>   
+    <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Frontend development</h2>
     <div class="m-16">
-        <h2 class="text-center uppercase text-2xl font-serif font-thin">Frontend development</h2>
-        <div class="flex flex-row mg py-4 gap-6 justify-evenly frontend">
+        <div class="flex flex-col mg py-4 gap-6 justify-evenly frontend">
             <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-row">
                 <div class="flex flex-col">
                 <h2 class="text-white text-center break-words font-extrabold text-3xl"> Reservia </h2>
-                <img src="images/htmlcss.webp" alt="Html and Css logo" class="sm p-5 rounded-xl">
+                <img src="images/reservia.webp" alt="Html and Css logo" class="sm p-5 rounded-xl">
                 </div>
-                <div class="flex flex-col">
-                    <p class="text-white">Hotels Accommodations and Activities</p>
+                <div class="flex flex-col mt-20">
+                    <p>Reservia is a website that helps you find Accommodations and Activities in Marseille France</p>
+                    <p>Installed Visual Studio Code and setup coding environment</p>
                     <p> Transformed mockup into responsive one-page HTML/CSS static template</p>
                 </div>
             </a>
-            <a href="https://noanswerss.github.io/ohmyfoodscss/" class="space-x-3.5 bg-slate-600">
+            <a href="https://noanswerss.github.io/ohmyfoodscss/" class="space-x-1.5 bg-slate-600 flex flex-row-reverse">
+            <div class="flex flex-col">
                 <h2 class="text-white text-center"> OhMyFood</h2>
-                <img src="images/sass.png" alt="Sass logo" class="sm p-5">
+                <img src="images/ohmyfood.webp" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5">
+            </div>
+            <div class="flex flex-col mt-20">
                 <p>Integrated a mobile website with animations in CSS</p>
-            <p>Custom made Graphic Effects and Animations</p>
+                <p>Custom made Graphic Effects and Animations</p>
+            </div>
             </a>
-            <a href="https://noanswerss.github.io/GoMikeDesigns/" class="space-x-3.5 bg-slate-600">
+            <a href="https://noanswerss.github.io/GoMikeDesigns/" class="space-x-3.5 bg-slate-600 flex flex-row">
+            <div class="flex flex-col">
                 <h2 class="text-center"> GoMikeDesigns</h2>
-                <img src="images/seo.png" alt="" class="sm p-5">
+                <img src="https://raw.githubusercontent.com/NoAnswerss/GoMikeDesigns/main/img/atlanta-made-sign-orange2.webp" alt="" class="sm p-5">
+            </div>
+            <div class="flex flex-col p-20">
         <p>Optimized an existing website using S.E.O. techniques</p>
-        <p></p>
+        </div>
             </a>
 </div>
-        <h2 class="text-center text-2xl uppercase font-serif font-extrabold">Backend development</h2>
+        <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Backend development</h2>
         <div class="flex flex-row mg py-4 gap-6 backend">
             <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400">
                 <h2 class="text-center">Kanap</h2>
