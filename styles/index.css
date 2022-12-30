@@ -12,6 +12,10 @@ header a {
 .frontend p {
     @apply p-2 m-2;
 }
+.frontend img {
+    width: 900px;
+    height: 500px;
+}
 h2 {
     text-shadow: 2px 2px green;
 }
