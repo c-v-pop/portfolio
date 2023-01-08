@@ -534,11 +534,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -767,6 +762,12 @@ video {
   --tw-ring-offset-width: 2px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: unbounded;
+}
+
 header a {
   border-radius: 1rem;
   --tw-gradient-from: #374151;
@@ -871,21 +872,6 @@ h2 {
 .backend p {
   margin: 0.5rem;
   padding: 0.5rem;
-}
-
-ul {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-ul p {
-  overflow-wrap: break-word;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: unbounded;
 }
 
 h2 {

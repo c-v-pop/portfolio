@@ -12,7 +12,7 @@
 <body class="bg-slate-500">
     <header>
         <nav class="flex flex-wrap justify-evenly text-lg py-2 my-3">
-            <a href="https://file.io/dtOZQhcItVQE" class="py-5 px-10 text-2xl uppercase">C.V.</a>
+        <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 text-2xl uppercase" download>C.V.</a>
             <a href="" class="py-5 px-10 text-2xl uppercase">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl uppercase">E-mail</a>
         </nav>
