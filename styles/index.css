@@ -9,6 +9,9 @@ header a {
 .frontend a {
     @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-green-500 ring-offset-2 h-1/6;
 }
+body p, h1, a {
+    @apply text-emerald-400;
+}
 .frontend p {
     @apply p-2 m-2;
 }
@@ -17,10 +20,14 @@ header a {
     height: 500px;
 }
 h2 {
-    text-shadow: 2px 2px green;
+    color: darkseagreen;
+    text-shadow: 3px 2px black;
 }
 .frontend h2 {
     @apply text-center capitalize text-2xl font-serif font-thin;
+}
+.frontend h3 {
+    @apply text-center break-words font-extrabold text-3xl p-6;
 }
 .backend a {
     @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-red-800 ring-offset-2;
@@ -41,5 +48,5 @@ body {
   }
 
   h2 {
-    @apply my-5
+    @apply my-5;
   }

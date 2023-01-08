@@ -12,10 +12,9 @@
 <body class="bg-slate-500">
     <header>
         <nav class="flex flex-wrap justify-evenly text-lg py-2 my-3">
-            <a href="projects.php" class="py-5 px-10 text-2xl">Projects</a>
-            <a href="https://file.io/dtOZQhcItVQE" class="py-5 px-10 text-2xl">C.V.</a>
-            <a href="" class="py-5 px-10 text-2xl">Experience</a>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl">E-mail</a>
+            <a href="https://file.io/dtOZQhcItVQE" class="py-5 px-10 text-2xl uppercase">C.V.</a>
+            <a href="" class="py-5 px-10 text-2xl uppercase">Experience</a>
+            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl uppercase">E-mail</a>
         </nav>
         <div class="flex flex-row-reverse bg-slate-600 m-10 p-5 rounded-xl">
             <img class="ml-auto rounded-full w-1/4 p-5 h-1/6" src="images/avatar.webp" alt="logo">     
@@ -32,7 +31,7 @@
         <div class="flex flex-col mg py-4 gap-6 justify-evenly frontend">
             <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-row">
                 <div class="flex flex-col">
-                <h2 class="text-white text-center break-words font-extrabold text-3xl"> Reservia </h2>
+                <h3> Reservia </h3>
                 <img src="images/reservia.webp" alt="Html and Css logo" class="sm p-5 rounded-xl">
                 </div>
                 <div class="flex flex-col mt-20">
@@ -43,7 +42,7 @@
             </a>
             <a href="https://noanswerss.github.io/ohmyfoodscss/" class="bg-slate-600 flex flex-row">
             <div class="flex flex-col">
-                <h2 class="text-white text-center"> OhMyFood</h2>
+                <h3 class="text-center"> OhMyFood</h3>
                 <img src="images/ohmyfood.webp" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5">
             </div>
             <div class="flex flex-col mt-20 mr-auto">
@@ -53,33 +52,45 @@
             </a>
             <a href="https://noanswerss.github.io/GoMikeDesigns/" class="space-x-3.5 bg-slate-600 flex flex-row">
             <div class="flex flex-col">
-                <h2 class="text-center"> GoMikeDesigns</h2>
+                <h3 class="text-center"> GoMikeDesigns</h3>
                 <img src="https://raw.githubusercontent.com/NoAnswerss/GoMikeDesigns/main/img/atlanta-made-sign-orange2.webp" alt="" class="sm p-5">
             </div>
             <div class="flex flex-col p-20">
-        <p>Optimized an existing website using S.E.O. techniques</p>
-        </div>
+                <p>Optimized an existing website using S.E.O. techniques</p>
+            </div>
             </a>
 </div>
         <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Backend development</h2>
         <div class="flex flex-col mg py-4 gap-6 backend">
-            <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400">
-                <h2 class="text-center">Kanap</h2>
+            <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400 flex flex-row">
+            <div class="flex flex-col">
+                <h3 class="text-center">Kanap</h3>
                 <img src="images/js.png" alt="" class="sm p-5">
+            </div>
+            <div class="flex flex-col mt-20">
                 <p>First attempt at a fullstack application where I got to work with an API and fetch products from the backend to display dynamically</p>
+            </div>
             </a>
-            <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-slate-400">
-                <h2 class="text-center">Piquante</h2>
+            <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-slate-400 flex flex-row">
+            <div class="flex flex-col">
+                <h3 class="text-center">Piquante</h3>
                 <img src="images/js.png" alt="" class="sm p-5">
+            </div>
+            <div class="flex flex-col mt-20">
                 <p>Build the back-end and API for 'Piquante', a new apph2cation from So Pekocko that allows users to h2ke/dish2ke sauces.</p>
+            </div>
             </a>
-            <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-slate-400">
-                <h2 class="text-center">Groupomania</h2>
+            <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-slate-400 flex flex-row">
+            <div class="flex flex-col">
+                <h3 class="text-center">Groupomania</h3>
                 <img src="images/js.png" alt="" class="sm  p-5">
+            </div>
+            <div class="flex flex-col mt-20">
                 <p>Seventh and last project in the brand new OpenClassrooms web developer course.</p>
                 <p>Groupomania is a group specializing in mass distribution, the objective is the development of an internal social network for Groupomania employees</p>
                 <p>The purpose of this tool is to facilitate interactions between colleagues.</p>
                 <p>The backend part will be carried out with Api platform integrated into Symfony 4 NodeJS, Express framework and React for the frontend part.</p>
+            </div>
             </a>
             </div>
 </div>

@@ -539,11 +539,6 @@ video {
   margin-right: 2.5rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -745,6 +740,10 @@ video {
   font-weight: 800;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -809,6 +808,11 @@ header a:hover {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+body p, h1, a {
+  --tw-text-opacity: 1;
+  color: rgb(52 211 153 / var(--tw-text-opacity));
+}
+
 .frontend p {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -820,7 +824,8 @@ header a:hover {
 }
 
 h2 {
-  text-shadow: 2px 2px green;
+  color: darkseagreen;
+  text-shadow: 3px 2px black;
 }
 
 .frontend h2 {
@@ -830,6 +835,15 @@ h2 {
   line-height: 2rem;
   font-weight: 100;
   text-transform: capitalize;
+}
+
+.frontend h3 {
+  overflow-wrap: break-word;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
 }
 
 .backend a {
