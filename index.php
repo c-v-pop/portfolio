@@ -16,8 +16,8 @@
             <a href="" class="py-5 px-10 text-2xl uppercase">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl uppercase">E-mail</a>
         </nav>
-        <div class="flex flex-row-reverse bg-slate-600 m-10 p-5 rounded-xl">
-            <img class="ml-auto rounded-full w-1/4 p-5 h-1/6" src="images/avatar.webp" alt="logo">     
+        <div class="flex flex-row-reverse bg-slate-600 m-10 p-5 rounded-xl intro">
+            <img class="ml-auto w-1/4 p-5 h-1/6" src="images/judging.png" alt="logo">     
         <div class="mb-4">
             <h1 class="p-2 text-4xl font-serif">Hello there! <br> I'm Ciprian Pop, <br> and I'm a Web developer</h1>
             <p>I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 

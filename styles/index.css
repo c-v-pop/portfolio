@@ -54,3 +54,25 @@ h2 {
   h2 {
     @apply my-5;
   }
+
+  @media only screen and (max-width: 420px) {
+
+    nav {
+        width: 33em;
+    }
+
+    .intro {
+        width: 33em;
+    }
+    .frontend a {
+        width: 27em;
+        flex-direction: column;
+    }
+    .backend a {
+        width: 27em;
+        flex-direction: column;
+    }
+    h2 {
+        margin-left: 50%;
+    }
+  }

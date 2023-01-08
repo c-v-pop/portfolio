@@ -624,10 +624,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -877,6 +873,30 @@ h2 {
 h2 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+@media only screen and (max-width: 420px) {
+  nav {
+    width: 33em;
+  }
+
+  .intro {
+    width: 33em;
+  }
+
+  .frontend a {
+    width: 27em;
+    flex-direction: column;
+  }
+
+  .backend a {
+    width: 27em;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin-left: 50%;
+  }
 }
 
 .hover\:cursor-pointer:hover {
