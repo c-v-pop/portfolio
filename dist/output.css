@@ -554,6 +554,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -668,6 +672,10 @@ video {
 
 .p-20 {
   padding: 5rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .py-2 {
@@ -876,26 +884,24 @@ h2 {
 }
 
 @media only screen and (max-width: 420px) {
-  nav {
-    width: 33em;
-  }
-
-  .intro {
-    width: 33em;
-  }
-
   .frontend a {
-    width: 27em;
+    display: flex;
     flex-direction: column;
+  }
+
+  .frontend p {
+    margin-bottom: 1.5rem;
+    margin-top: 0px;
+    padding: 0px;
   }
 
   .backend a {
-    width: 27em;
+    display: flex;
     flex-direction: column;
   }
 
-  h2 {
-    margin-left: 50%;
+  .frontend img {
+    width: 100%;
   }
 }
 

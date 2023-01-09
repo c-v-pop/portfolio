@@ -57,22 +57,16 @@ h2 {
 
   @media only screen and (max-width: 420px) {
 
-    nav {
-        width: 33em;
-    }
-
-    .intro {
-        width: 33em;
-    }
     .frontend a {
-        width: 27em;
-        flex-direction: column;
+        @apply flex flex-col; 
+    }
+    .frontend p {
+        @apply p-0 mb-6 mt-0;
     }
     .backend a {
-        width: 27em;
-        flex-direction: column;
+        @apply flex flex-col; 
     }
-    h2 {
-        margin-left: 50%;
+    .frontend img {
+        width: 100%;
     }
   }
