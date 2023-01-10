@@ -16,9 +16,7 @@
             <a href="" class="py-5 px-10 text-2xl uppercase">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl uppercase">E-mail</a>
         </nav>
-        <div class="flex flex-row-reverse bg-slate-600 m-10 p-5 rounded-xl intro">
-            <img class="ml-auto w-1/4 p-5 h-1/6" src="images/judging.png" alt="logo">     
-        <div class="mb-4">
+        <div class="flex flex-col">
             <h1 class="p-2 text-4xl font-serif">Hello there! <br> I'm Ciprian Pop, <br> and I'm a Web developer</h1>
             <p>I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
                 In my free time I enjoy gaming, traveling and doing sports.
@@ -40,7 +38,7 @@
                     <p> Transformed mockup into responsive one-page HTML/CSS static template</p>
                 </div>
             </a>
-            <a href="https://noanswerss.github.io/ohmyfoodscss/" class="bg-slate-600 flex flex-row">
+            <a href="https://noanswerss.github.io/ohmyfood/" class="bg-slate-600 flex flex-row">
             <div class="flex flex-col">
                 <h3 class="text-center"> OhMyFood</h3>
                 <img src="images/ohmyfood.webp" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5">
@@ -55,7 +53,7 @@
                 <h3 class="text-center"> GoMikeDesigns</h3>
                 <img src="https://raw.githubusercontent.com/NoAnswerss/GoMikeDesigns/main/img/atlanta-made-sign-orange2.webp" alt="" class="sm p-5">
             </div>
-            <div class="flex flex-col p-20">
+            <div class="flex flex-col mt-20 mr-auto">
                 <p>Optimized an existing website using S.E.O. techniques</p>
             </div>
             </a>

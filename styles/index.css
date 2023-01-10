@@ -61,7 +61,7 @@ h2 {
         @apply flex flex-col; 
     }
     .frontend p {
-        @apply p-0 mb-6 mt-0;
+        @apply p-0 mb-6 mt-0 pt-0;
     }
     .backend a {
         @apply flex flex-col; 
