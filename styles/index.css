@@ -9,6 +9,42 @@ body {
     font-family: unbounded;
   }
 
+
+/* Typing animation */
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 62ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+/* Typing animation end */
+
+
 header a {
     @apply hover:cursor-pointer hover:text-white hover:uppercase hover:bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-2xl; 
 }

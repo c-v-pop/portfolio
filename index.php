@@ -16,8 +16,10 @@
             <a href="" class="py-5 px-10 text-2xl uppercase">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10 text-2xl uppercase">E-mail</a>
         </nav>
-        <div class="flex flex-col">
-            <h1 class="p-2 text-4xl font-serif">Hello there! <br> I'm Ciprian Pop, <br> and I'm a Web developer</h1>
+        <div class="wrapper">
+            <div class="typing-demo">
+            <h1 class="p-2 text-4xl font-serif">Hello there! I'm Ciprian Pop, and I'm a Web developer</h1>
+            </div>
             <p>I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
                 In my free time I enjoy gaming, traveling and doing sports.
             </p>
