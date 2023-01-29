@@ -46,7 +46,7 @@ body {
 
 
 header a {
-    @apply hover:cursor-pointer hover:text-white hover:uppercase hover:bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-2xl; 
+    @apply hover:cursor-pointer hover:text-primary; 
 }
 
 .frontend a {
@@ -54,7 +54,7 @@ header a {
 }
 
 body p, h1, a {
-    @apply text-emerald-400;
+    @apply text-support;
 }
 
 .frontend p {
@@ -62,8 +62,7 @@ body p, h1, a {
 }
 
 .frontend img {
-    width: 900px;
-    height: 500px;
+    @apply  w-[900px] h-[500px];
 }
 
 h2 {
@@ -89,20 +88,4 @@ h2 {
 
   h2 {
     @apply my-5;
-  }
-
-  @media only screen and (max-width: 420px) {
-
-    .frontend a {
-        @apply flex flex-col; 
-    }
-    .frontend p {
-        @apply p-0 mb-6 mt-0 pt-0;
-    }
-    .backend a {
-        @apply flex flex-col; 
-    }
-    .frontend img {
-        width: 100%;
-    }
   }
