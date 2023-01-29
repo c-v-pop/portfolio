@@ -17,7 +17,7 @@
             </div>
             <div class="flex items-center">
             <a href="" class="py-5 px-10">Experience</a>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10">E-mail</a>
+            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10">Get in touch</a>
             <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
             </div>
         </nav>
@@ -35,11 +35,11 @@
                 In my free time I enjoy gaming, traveling and doing sports.I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
                 In my 
             </p>
-            <a href="#" class="text-center my-4 text-support-200 bg-primary p-4 rounded-md m-auto text-xl"> PROJECTS</a>
+            <a href="#frontend" class="text-center my-4 text-support-200 bg-primary p-4 rounded-md m-auto text-xl hover:text-white font-bold"> PROJECTS</a>
         </div>
     </div>
     </header>   
-    <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Frontend development</h2>
+    <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
     <div class="m-16">
         <div class="flex flex-col mg py-4 gap-6 justify-evenly frontend">
             <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-row">

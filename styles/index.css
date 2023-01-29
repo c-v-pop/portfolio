@@ -49,7 +49,7 @@ header a {
 }
 
 .frontend a {
-    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-green-500 ring-offset-2 h-1/6;
+    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary h-1/6;
 }
 
 body p, h1, a {
@@ -78,7 +78,7 @@ h2 {
 }
 
 .backend a {
-    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-red-800 ring-offset-2;
+    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary;
 }
 
 .backend p {
