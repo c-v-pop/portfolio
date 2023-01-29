@@ -21,17 +21,23 @@
             <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
             </div>
         </nav>
-        <div class="wrapper">
-            <div class="md:typing-demo text-center">
-            <h1 class="p-2 text-2xl md:text-4xl font-serif">Hello there! I'm
+        <div class="wrapper py-40">
+            <div class="typing-demo text-center">
+            <h1 class="py-8 text-5xl md:text-4xl font-serif">Hello there! I'm
                <span class="text-primary">Ciprian Pop</span>,
                  and I'm a Web developer</h1>
             </div>
-            <p>I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
+            <p class="text-2xl m-auto text-center py-8 max-w-[60%]">I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
                 In my free time I enjoy gaming, traveling and doing sports.
+                I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
+                In my free time I enjoy gaming, traveling and doing sports.
+                I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
+                In my free time I enjoy gaming, traveling and doing sports.I've been coding and making data visualisation projects since 2020. I have experience and interest in web design (HTML, CSS & JS), 
+                In my 
             </p>
+            <a href="#" class="text-center my-4 text-support-200 bg-primary p-4 rounded-md m-auto text-xl"> PROJECTS</a>
         </div>
-            </div>
+    </div>
     </header>   
     <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Frontend development</h2>
     <div class="m-16">
