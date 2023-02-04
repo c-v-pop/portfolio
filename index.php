@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +23,7 @@
         </nav>
         <div class="wrapper py-40">
             <div class="typing-demo text-center">
-            <h1 class="py-8 text-[0.5em] md:text-4xl font-serif">Hello there! I'm
+            <h1 class="py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
                <span class="text-primary">Ciprian Pop</span>,
                  and I'm a Web developer</h1>
             </div>
@@ -35,7 +35,7 @@
     </header>   
     <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
     <div class="m-16">
-        <div class="flex flex-col md:flex-row mg py-4 gap-6 justify-evenly frontend">
+        <div class="flex flex-col md:flex-row mg py-4 gap-6 frontend">
             <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-col">
                 <div class="flex flex-col">
                 <h3> Reservia </h3>
@@ -64,15 +64,15 @@
             </div>
             </a>
 </div>
-        <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Backend development</h2>
-        <div class="flex flex-col md:flex-row mg py-4 gap-6 backend">
+        <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Fullstack projects</h2>
+        <div class="flex flex-col md:flex-row mg py-4 gap-6 fullstack">
             <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
                 <h3 class="text-center">Kanap</h3>
                 <img src="images/js.png" alt="" class="sm p-5">
             </div>
             <div class="flex flex-col mt-20">
-                <p>First attempt at a fullstack application where I got to work with an API and fetch products from the backend to display dynamically</p>
+                <p>First attempt at a fullstack application where I got to work with an API and fetch products from the fullstack to display dynamically</p>
             </div>
             </a>
             <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-slate-400 flex flex-col">
@@ -93,7 +93,7 @@
                 <p>Seventh and last project in the brand new OpenClassrooms web developer course.</p>
                 <p>Groupomania is a group specializing in mass distribution, the objective is the development of an internal social network for Groupomania employees</p>
                 <p>The purpose of this tool is to facilitate interactions between colleagues.</p>
-                <p>The backend part will be carried out with Api platform integrated into Symfony 4 NodeJS, Express framework and React for the frontend part.</p>
+                <p>The fullstack part will be carried out with Api platform integrated into Symfony 4 NodeJS, Express framework and React for the frontend part.</p>
             </div>
             </a>
             </div>

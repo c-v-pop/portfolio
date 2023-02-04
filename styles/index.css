@@ -79,11 +79,11 @@ h2 {
     @apply text-center break-words font-extrabold text-3xl p-6;
 }
 
-.backend a {
+.fullstack a {
     @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary;
 }
 
-.backend p {
+.fullstack p {
    @apply m-2 p-2;
 }
 
