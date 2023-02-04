@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
     margin: 0;
     padding: 0;
-    font-family: unbounded;
+    font-family: "Montserrat", serif;
   }
 
 
@@ -52,7 +53,7 @@ header a {
     @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary h-1/6;
 }
 
-body p, h1, a {
+body p, h1, h2, a {
     @apply text-support;
 }
 
@@ -61,12 +62,13 @@ body p, h1, a {
 }
 
 .frontend img {
-    @apply  w-[900px] h-[500px];
+    @apply  w-[100%] h-[400px];
 }
 
 h2 {
-    color: darkseagreen;
-    text-shadow: 3px 2px black;
+  color: #34996c;
+  text-shadow: 3px 2px black;
+  padding-top: 1em;
 }
 
 .frontend h2 {
@@ -87,4 +89,17 @@ h2 {
 
   h2 {
     @apply my-5;
+  }
+
+  @media (max-width: 991px) {
+
+    .typing-demo {
+      text-align: center;
+      animation: none;
+      width: 100%;
+    }
+    .avatar {
+      position: fixed;
+      bottom: 1em;
+    }
   }
