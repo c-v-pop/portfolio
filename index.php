@@ -17,49 +17,49 @@
             </div>
             <div class="flex items-center">
             <a href="" class="py-5 px-10">Experience</a>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="py-5 px-10">Get in touch</a>
+            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="mx-4 md:py-5 md:px-10">Get in touch</a>
             <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
             </div>
         </nav>
-        <div class="wrapper md:py-40">
+        <div class="wrapper md:py-40 md:mt-8 mt-10">
             <div class="typing-demo text-center">
             <h1 class="md:py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
                <span class="text-primary">Ciprian Pop</span>,
                  and I'm a Web developer</h1>
             </div>
-            <p class="text-lg mt-[2em] md:text-2xl m-auto text-center py-8 max-w-[60%] pb-[5em]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
+            <p class="text-xl mt-[4em] md:text-2xl m-auto text-center md:py-8 max-w-[60%] pb-[5em]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
             </p>
-            <a href="#frontend" class="text-center my-4 text-support bg-primary p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
+            <a href="#frontend" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
         </div>
     </div>
     </header>   
     <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
     <div class="m-16">
         <div class="flex flex-col md:flex-row mg py-4 gap-6 frontend">
-            <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-col">
+            <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-slate-600 flex flex-col flex-1">
                 <div class="flex flex-col">
                 <h3> Reservia </h3>
                 <img src="images/reservia.webp" alt="Html and Css logo" class="sm p-5 rounded-xl">
                 </div>
-                <div class="flex flex-col mt-20">
+                <div class="flex flex-col md:mt-10">
                     <p>Reservia website is designed to provide an optimal viewing and interaction experience on any device. Whether you're using a desktop computer, tablet, or smartphone, our fully responsive website will automatically adjust to the screen size and resolution for seamless navigation and an enjoyable user experience. With a focus on mobile-first design, your website visitors can access all of the features and content on the go, anytime, anywhere.</p> 
                 </div>
             </a>
-            <a href="https://noanswerss.github.io/ohmyfood/" class="bg-slate-600 flex flex-col">
+            <a href="https://noanswerss.github.io/ohmyfood/" class="bg-slate-600 flex flex-col flex-1">
             <div class="flex flex-col">
                 <h3 class="text-center"> OhMyFood</h3>
                 <img src="images/ohmyfood.webp" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5">
             </div>
-            <div class="flex flex-col mt-20 mr-auto">
+            <div class="flex flex-col md:mt-10 mr-auto">
                 <p>Ohmyfood is a new startup that wants to make a name for itself in the restaurant business. The objective is to develop a 100% mobile-friendly site that lists the menus of gourmet restaurants. In addition to having a classic reservation system, customers will be able to select the dishes they want for their meal so that they are ready when they arrive. No more wait times in restaurants!</p>
             </div>
             </a>
-            <a href="https://noanswerss.github.io/GoMikeDesigns/" class="space-x-3.5 bg-slate-600 flex flex-col">
+            <a href="https://noanswerss.github.io/GoMikeDesigns/" class="space-x-3.5 bg-slate-600 flex flex-col flex-1">
             <div class="flex flex-col">
                 <h3 class="text-center"> GoMikeDesigns</h3>
                 <img src="https://raw.githubusercontent.com/NoAnswerss/GoMikeDesigns/main/img/atlanta-made-sign-orange2.webp" alt="" class="sm p-5">
             </div>
-            <div class="flex flex-col mt-20 mr-auto">
+            <div class="flex flex-col md:mt-10 mr-auto">
                 <p>GoMikeDesigns is a freelance web designer who lives in Atlanta. Many local shops have outdated websites, so he approached a few and landed his first clients. But now he would like potential customers to find him when they Google for local freelance web designers to hire. </p>
             </div>
             </a>

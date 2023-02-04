@@ -572,9 +572,31 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-\[4em\] {
+  margin-top: 4em;
+}
+
+.mb-\[2\.5em\] {
+  margin-bottom: 2.5em;
 }
 
 .mt-20 {
@@ -593,8 +615,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mt-\[2em\] {
-  margin-top: 2em;
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -617,8 +647,8 @@ video {
   height: auto;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[15em\] {
+  height: 15em;
 }
 
 .w-20 {
@@ -635,6 +665,10 @@ video {
 
 .max-w-\[60\%\] {
   max-width: 60%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .transform {
@@ -746,8 +780,8 @@ video {
   padding: 0.25rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-5 {
@@ -771,16 +805,6 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .py-4 {
@@ -816,6 +840,11 @@ video {
 
 .text-\[0\.45em\] {
   font-size: 0.45em;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -865,11 +894,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.ring-primary {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(52 153 108 / var(--tw-ring-opacity));
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -916,7 +940,6 @@ header a:hover {
 
 .frontend a {
   margin-bottom: 0.5rem;
-  height: 16.666667%;
   border-radius: 0.25rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -947,7 +970,7 @@ body p, h1, h2, a {
 }
 
 .frontend img {
-  height: 400px;
+  height: 15em;
   width: 100%;
 }
 
@@ -1061,8 +1084,35 @@ h2 {
 }
 
 @media (min-width: 768px) {
+  .md\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:py-40 {
