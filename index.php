@@ -63,8 +63,11 @@
                 <p>GoMikeDesigns is a freelance web designer who lives in Atlanta. Many local shops have outdated websites, so he approached a few and landed his first clients. But now he would like potential customers to find him when they Google for local freelance web designers to hire. </p>
             </div>
             </a>
-</div>
-        <h2 class="text-center capitalize font-mono font-extrabold text-4xl">Fullstack projects</h2>
+</div>  
+        <div class="flex">
+        <a href="#fullstack" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold">More Projects</a>
+        </div>
+        <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="fullstack">Fullstack projects</h2>
         <div class="flex flex-col md:flex-row mg py-4 gap-6 fullstack">
             <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
