@@ -593,6 +593,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-\[2em\] {
+  margin-top: 2em;
+}
+
 .flex {
   display: flex;
 }
@@ -653,24 +657,8 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-items-center {
-  justify-items: center;
-}
-
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-\[2em\] {
-  gap: 2em;
 }
 
 .space-x-3\.5 > :not([hidden]) ~ :not([hidden]) {
@@ -826,8 +814,8 @@ video {
   line-height: 1.25rem;
 }
 
-.text-\[0\.5em\] {
-  font-size: 0.5em;
+.text-\[0\.45em\] {
+  font-size: 0.45em;
 }
 
 .text-2xl {
@@ -848,10 +836,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-\[0\.45em\] {
-  font-size: 0.45em;
 }
 
 .font-bold {
@@ -1081,6 +1065,16 @@ h2 {
     flex-direction: row;
   }
 
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1089,5 +1083,10 @@ h2 {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

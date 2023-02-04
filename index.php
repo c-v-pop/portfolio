@@ -21,13 +21,13 @@
             <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
             </div>
         </nav>
-        <div class="wrapper py-40">
+        <div class="wrapper md:py-40">
             <div class="typing-demo text-center">
-            <h1 class="py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
+            <h1 class="md:py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
                <span class="text-primary">Ciprian Pop</span>,
                  and I'm a Web developer</h1>
             </div>
-            <p class="text-2xl m-auto text-center py-8 max-w-[60%] pb-[5em]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
+            <p class="text-lg mt-[2em] md:text-2xl m-auto text-center py-8 max-w-[60%] pb-[5em]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
             </p>
             <a href="#frontend" class="text-center my-4 text-support bg-primary p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
         </div>
