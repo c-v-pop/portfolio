@@ -27,7 +27,7 @@
                <span class="text-primary">Ciprian Pop</span>,
                  and I'm a Web developer</h1>
             </div>
-            <p class="text-xl mt-[4em] md:text-2xl m-auto text-center md:py-8 max-w-[60%] pb-[5em]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
+            <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[60%]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
             </p>
             <a href="#frontend" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
         </div>

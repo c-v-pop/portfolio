@@ -577,18 +577,13 @@ video {
   margin-right: 1rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-\[4em\] {
@@ -599,10 +594,6 @@ video {
   margin-bottom: 2.5em;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -611,20 +602,24 @@ video {
   margin-right: auto;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-\[2em\] {
+  margin-top: 2em;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.mt-\[7em\] {
+  margin-top: 7em;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-\[em\] {
+  margin-top: em;
 }
 
 .flex {
@@ -1089,12 +1084,17 @@ h2 {
     margin-bottom: 1rem;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
+  .md\:my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .md\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:flex-row {
@@ -1123,6 +1123,11 @@ h2 {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .md\:text-lg {
