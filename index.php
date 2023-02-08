@@ -85,7 +85,7 @@
                 <img src="images/js.png" alt="" class="sm p-5">
             </div>
             <div class="flex flex-col mt-20">
-                <p>Built the back-end and API for 'Piquante', a new apph2cation from So Pekocko that allows users to h2ke/dish2ke sauces.</p>
+                <p>Built the back-end and API for 'Piquante', a new application from So Pekocko that allows users to like/dislike sauces.</p>
             </div>
             </a>
             <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-slate-400 flex flex-col">
