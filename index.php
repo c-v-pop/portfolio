@@ -95,7 +95,7 @@
             <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
                 <h3 class="text-center">Groupomania</h3>
-                <img src="images/js.png" alt="" class="sm  p-5">
+                <img src="images/groupomania.jpg" alt="" class="sm  p-5">
             </div>
             <div class="flex flex-col mt-20">
                 <ul>
