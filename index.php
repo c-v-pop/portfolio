@@ -73,7 +73,7 @@
             <a href="https://github.com/NoAnswerss/P5-Web-Dev-Kanap" class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
                 <h3 class="text-center">Kanap</h3>
-                <img src="images/js.png" alt="" class="sm p-5">
+                
             </div>
             <div class="flex flex-col mt-20">
                 <ul>
@@ -86,7 +86,7 @@
             <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
                 <h3 class="text-center">Piquante</h3>
-                <img src="images/piquante.jpg" alt="Login form image" class="sm p-5">
+                
             </div>
             <div class="flex flex-col mt-20">
                 <p>Built the back-end and API for 'Piquante', a new application from So Pekocko that allows users to like/dislike sauces.</p>
@@ -95,10 +95,11 @@
             <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-slate-400 flex flex-col">
             <div class="flex flex-col">
                 <h3 class="text-center">Groupomania Social Media App</h3>
-                <img src="images/groupomania.jpg" alt="Login form image" class="sm  p-5">
+
             </div>
             <div class="flex flex-col mt-20">
                 <ul>
+                    <li>ReactJS</li>
                     <li>NodeJS</li>
                     <li>ExpressJS</li>
                     <li>Multer</li>
