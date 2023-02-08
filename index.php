@@ -18,7 +18,7 @@
             <div class="flex items-center">
             <a href="" class="py-5 px-10">Experience</a>
             <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="mx-4 md:py-5 md:px-10">Get in touch</a>
-            <a href="/demo/media/CiprianPopCV.docx" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
+            <a href="/demo/media/Ciprian_Pop_Resume.pdf" class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary" download>Resume</a>
             </div>
         </nav>
         <div class="wrapper md:py-40 md:mt-8 mt-10">
@@ -76,7 +76,11 @@
                 <img src="images/js.png" alt="" class="sm p-5">
             </div>
             <div class="flex flex-col mt-20">
-                <p>First attempt at a fullstack application where I got to work with an API and fetch products from the fullstack to display dynamically</p>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>API Requests</li>
+                    <li></li>
+                </ul>
             </div>
             </a>
             <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-slate-400 flex flex-col">
@@ -94,10 +98,13 @@
                 <img src="images/js.png" alt="" class="sm  p-5">
             </div>
             <div class="flex flex-col mt-20">
-                <p>Seventh and last project in the brand new OpenClassrooms web developer course.</p>
-                <p>Groupomania is a group specializing in mass distribution, the objective is the development of an internal social network for Groupomania employees</p>
-                <p>The purpose of this tool is to facilitate interactions between colleagues.</p>
-                <p>The fullstack part will be carried out with Api platform integrated into Symfony 4 NodeJS, Express framework and React for the frontend part.</p>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>Multer</li>
+                    <li>bcrypt</li>
+                    <li>jsonwebtoken</li>
+                </ul>
             </div>
             </a>
             </div>
