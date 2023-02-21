@@ -50,7 +50,7 @@ header a {
 }
 
 .frontend a {
-    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary;
+    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary rounded-[10%];
 }
 
 body p, h1, h2, a {
@@ -62,14 +62,11 @@ body p, h1, h2, a {
 }
 
 .frontend img {
-    @apply  w-[100%] h-[15em];
+    @apply  w-[100%] h-[15em] rounded-[5em];
 }
 
 h2 {
-  @apply text-primary pt-[1em] drop-shadow-[0_35px_35px_rgba(510,150,150,250.25)];
-  /* 
-  text-shadow: 3px 2px black;
-  */ 
+  @apply text-primary pt-[1em];
 }
 
 .frontend h2 {
@@ -81,7 +78,7 @@ h2 {
 }
 
 .fullstack a {
-    @apply text-lg text-white px-5 rounded mb-2 hover:bg-gray-700 hover:ring ring-primary;
+    @apply text-lg text-white px-5 rounded-[10%] mb-2 hover:ring ring-primary;
 }
 
 .fullstack p {
