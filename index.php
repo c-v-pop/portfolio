@@ -31,7 +31,6 @@
             </p>
             <a href="#frontend" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
         </div>
-    </div>
     </header> 
     <main>  
     <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
