@@ -66,9 +66,10 @@ body p, h1, h2, a {
 }
 
 h2 {
-  color: #34996c;
+  @apply text-primary pt-[1em] drop-shadow-[0_35px_35px_rgba(510,150,150,250.25)];
+  /* 
   text-shadow: 3px 2px black;
-  padding-top: 1em;
+  */ 
 }
 
 .frontend h2 {
