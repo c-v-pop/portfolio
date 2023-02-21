@@ -78,7 +78,7 @@ h2 {
 }
 
 .fullstack a {
-    @apply text-lg text-white px-5 rounded-[10%] mb-2 hover:ring ring-primary;
+    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary;
 }
 
 .fullstack p {

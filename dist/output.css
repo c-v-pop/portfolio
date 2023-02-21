@@ -893,6 +893,10 @@ video {
   --tw-ring-color: rgb(52 153 108 / var(--tw-ring-opacity));
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -998,7 +1002,6 @@ h2 {
 
 .fullstack a {
   margin-bottom: 0.5rem;
-  border-radius: 10%;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   font-size: 1.125rem;

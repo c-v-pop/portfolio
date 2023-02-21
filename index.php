@@ -100,20 +100,45 @@
                 <img src="images/js.png" alt="placeholder">                
             </div>
             <div class="flex flex-col mt-20">
+                <p>This project is a web application that allows users to browse and purchase sofas that are slightly customizable. The application uses an API to dynamically display sofa information on the frontend, and it also employs local storage to save and retrieve customer information. The application is built using HTML, CSS, and JavaScript, without the use of a framework.</p>
                 <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>API Requests</li>
-                    <li></li>
+                    <li>API integration: The application integrates with an API to dynamically display sofa information on the frontend.</li>
+                    <li>Customization options: Users can customize their sofa by selecting different colors, fabrics, and sizes.</li>
+                    <li>Local storage: Customer information is stored locally, allowing users to retrieve their saved information and easily make repeat purchases.</li>
+                    <li>Cart and checkout: The application has a shopping cart feature that allows users to add and remove items before proceeding to checkout.</li>
+                    <li>Responsive design: The application is designed to be responsive, adapting to different screen sizes and devices.</li>
+                    <li>Accessible: The application is designed to be accessible to all users, including those with disabilities.</li>
                 </ul>
+                <ul>
+                    <li>HTML: Used for the structure and content of the web pages.</li>
+                    <li>CSS: Used for the presentation and styling of the web pages.</li>
+                    <li>JavaScript: Used for the dynamic behavior of the application, including API integration and local storage.</li>
+                </ul>
+                <p>Overall, this project demonstrates the ability to work with an API, create dynamic web applications, and utilize local storage to improve the user experience. By implementing customization options and a shopping cart feature, the application provides an engaging and intuitive way for customers to purchase sofas online.</p>
             </div>
             </a>
             <a href="https://github.com/NoAnswerss/Web-Developer-P6"  class="space-x-2 bg-secondary flex flex-col">
             <div class="flex flex-col">
-                <h3 class="text-center">Piquante</h3>
+                <h3 class="text-center">Piquante API</h3>
                 <img src="images/js.png" alt="placeholder">                
             </div>
             <div class="flex flex-col mt-20">
-                <p>Built the back-end and API for 'Piquante', a new application from So Pekocko that allows users to like/dislike sauces.</p>
+                <p>This project is an API that allows users to share and rate hot sauces. Users can create an account to upload their own hot sauce choices and allow other users to like or dislike them. The API is built using the Angular framework.</p>
+                <ul>
+                    <li>User authentication: Users can create an account to upload their hot sauce choices and access their profile information.</li>
+                    <li>Hot sauce sharing: Users can upload their hot sauce choices to the platform, including information such as the brand, heat level, and flavor profile.</li>
+                    <li>Like/dislike rating system: Users can rate other hot sauces on the platform with a like or dislike, providing valuable feedback to other users.</li>
+                    <li>Search and filter: Users can search for hot sauces by brand, heat level, or flavor profile.</li>
+                    <li>Responsive design: The API is designed to be responsive, adapting to different screen sizes and devices.</li>
+                    <li>Accessible: The API is designed to be accessible to all users, including those with disabilities.</li>
+                </ul>
+                <ul>
+                    <li>Angular: Used for building the API, including creating the user interface and implementing the hot sauce sharing and rating system.</li>
+                    <li>TypeScript: Used as the primary programming language for the API.</li>
+                    <li>Node.js: Used for server-side processing.</li>
+                    <li>MongoDB: Used as the database to store user information and hot sauce data.</li>
+                </ul>
+                <p>Overall, this API provides a fun and interactive way for hot sauce enthusiasts to share and rate their favorite sauces. By implementing user authentication and a rating system, users can trust that the hot sauce choices on the platform are high-quality and have been vetted by other enthusiasts. The search and filter feature also allows users to easily find hot sauces that match their preferences.</p>
             </div>
             </a>
             <a href="https://github.com/NoAnswerss/GroupMyApp"  class="space-x-2 bg-secondary flex flex-col">
@@ -122,14 +147,25 @@
                 <img src="images/js.png" alt="placeholder">
             </div>
             <div class="flex flex-col mt-20">
+                <p>This project is a full-stack social media application that allows users to create an account, upload photos, and comment on other users' posts. The application is built from scratch using ReactJS for the front-end, NodeJS and ExpressJS for the back-end, Multer for file uploads, Bcrypt for password encryption, jsonwebtoken for authentication, and MySQL for the database.</p>
                 <ul>
-                    <li>ReactJS</li>
-                    <li>NodeJS</li>
-                    <li>ExpressJS</li>
-                    <li>Multer</li>
-                    <li>bcrypt</li>
-                    <li>jsonwebtoken</li>
+                    <li>User authentication: Users can create an account and log in securely using password encryption and authentication tokens.</li>
+                    <li>Photo uploading: Users can upload photos to the platform, including captions and tags.</li>
+                    <li>Commenting: Users can comment on other users' posts, providing feedback and engaging in conversations.</li>
+                    <li>Search and filter: Users can search for photos by tags or captions, or filter photos by popularity or date.</li>
+                    <li>Profile page: Each user has a profile page where they can see their own posts, view their activity history, and edit their profile information.</li>
+                    <li>Responsive design: The application is designed to be responsive, adapting to different screen sizes and devices.</li>
+                    <li>Accessible: The application is designed to be accessible to all users, including those with disabilities.</li>
                 </ul>
+                <ul>
+                    <li>ReactJS: Used for the front-end of the application, including building the user interface and handling user interactions.</li>
+                    <li>NodeJS and ExpressJS: Used for the back-end of the application, including processing user requests and managing the database.</li>
+                    <li>Multer: Used for handling file uploads, including photos</li>
+                    <li>Bcrypt: Used for password encryption to keep user data secure.</li>
+                    <li>jsonwebtoken: Used for user authentication, creating and verifying authentication tokens.</li>
+                    <li>MySQL: Used for the database to store user information, photos, and comments.</li>
+                </ul>
+                <p>Overall, this full-stack social media application provides a fun and engaging platform for users to share their photos and engage in conversations with other users. The search and filter feature makes it easy to find photos that match their interests, while the profile page allows users to see their own activity history and manage their profile information. By using a range of technologies, including ReactJS, NodeJS, and MySQL, this application demonstrates the ability to build a robust and scalable full-stack application from scratch.</p>
             </div>
             </a>
             </div>
