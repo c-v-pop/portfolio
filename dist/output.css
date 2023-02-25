@@ -1028,6 +1028,12 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
+.frontend li {
+  margin-top: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(52 153 108 / var(--tw-text-opacity));
+}
+
 @media (max-width: 991px) {
   .typing-demo {
     text-align: center;
@@ -1105,6 +1111,10 @@ h2 {
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
   }
 
   .md\:py-5 {

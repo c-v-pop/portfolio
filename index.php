@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<title>Ciprian Pop's Portofolio</title>
+<title>Ciprian Pop's Portfolio</title>
 </head>
 <body class="bg-main-bg">
     <header>
@@ -89,7 +89,7 @@
             </a>
 </div>  
         <div class="flex">
-        <a href="#fullstack" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold">More Projects</a>
+        <a href="#fullstack" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] md:p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold">More Projects</a>
         </div>
         <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="fullstack">Fullstack projects</h2>
         <p class="text-center mb-4">These projects are available on my GitHub account</p>

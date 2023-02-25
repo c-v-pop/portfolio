@@ -88,6 +88,10 @@ h2 {
   h2 {
     @apply my-5;
   }
+  
+.frontend li {
+  @apply text-primary mt-1;
+}
 
   @media (max-width: 991px) {
 
