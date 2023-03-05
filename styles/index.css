@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", serif;
+    font-family: monospace;
   }
 
 
@@ -50,7 +50,7 @@ header a {
 }
 
 .frontend a {
-    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary rounded-lg;
+    @apply text-lg text-white px-5 mb-2 hover:shadow-[0_0_10px_3px_#64FFDA] rounded-lg;
 }
 
 body p, h1, h2, a {
