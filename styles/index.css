@@ -50,7 +50,7 @@ header a {
 }
 
 .frontend a {
-    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary rounded-[10%];
+    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary rounded-lg;
 }
 
 body p, h1, h2, a {
@@ -62,7 +62,7 @@ body p, h1, h2, a {
 }
 
 .frontend img {
-    @apply  w-[100%] h-[15em] rounded-[5em];
+    @apply  w-[100%] h-[15em] rounded-3xl object-cover;
 }
 
 h2 {

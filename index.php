@@ -29,13 +29,13 @@
             </div>
             <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[60%]">I am a professional web developer with a passion for creating user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to every project. My goal is to design and develop websites that meet the unique needs of each client and enhance their online presence.
             </p>
-            <a href="#frontend" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
+            <a href="#frontend" class="text-center my-8 md:my-4 text-primary border-2 border-primary bg-transparent mb-[2.5em] p-4 md:p-6 rounded-md m-auto text-2xl hover:text-white font-bold"> PROJECTS</a>
         </div>
     </header> 
     <main>  
     <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
     <div class="m-16">
-        <div class="flex flex-col md:flex-row mg py-4 gap-6 frontend">
+        <div class="flex flex-col md:flex-row mg py-4 gap-6 frontend flex-wrap">
             <a href="https://noanswerss.github.io/Reservia/" class="space-x-3.5 bg-secondary flex flex-col flex-1">
                 <div class="flex flex-col">
                 <h3> Reservia </h3>
@@ -89,7 +89,7 @@
             </a>
 </div>  
         <div class="flex">
-        <a href="#fullstack" class="text-center my-8 md:my-4 text-support bg-primary mb-[2.5em] md:p-4 md:p-10 rounded-md m-auto text-2xl hover:text-white font-bold">More Projects</a>
+        <a href="#fullstack" class="text-center my-8 md:my-4 text-primary border-2 border-primary bg-transparent mb-[2.5em] md:p-4 rounded-md m-auto text-2xl hover:text-white font-bold">More Projects</a>
         </div>
         <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="fullstack">Fullstack projects</h2>
         <p class="text-center mb-4">These projects are available on my GitHub account</p>
