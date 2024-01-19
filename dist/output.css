@@ -760,6 +760,16 @@ video {
   background-color: rgb(17 34 64 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -975,13 +985,6 @@ body p, h1, h2, a {
      object-fit: fill;
 }
 
-@media (min-width: 768px) {
-  .fullstack img {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-
 h2 {
   padding-top: 1em;
   --tw-text-opacity: 1;
@@ -1119,11 +1122,6 @@ h2 {
 
   .md\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .md\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 
   .md\:p-6 {

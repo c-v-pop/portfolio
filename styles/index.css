@@ -68,7 +68,7 @@ body p, h1, h2, a {
     @apply  w-[100%] h-[15em] rounded-3xl object-cover;
 }
 .fullstack img {
-    @apply  w-[100%] h-[15em] rounded-3xl md:object-cover object-fill;
+    @apply  w-[100%] h-[15em] rounded-3xl object-fill;
 }
 
 h2 {
