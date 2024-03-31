@@ -1,20 +1,21 @@
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* General Styling */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: monospace;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
 
-
-/* Typing animation */
-
+/* Typing Animation */
 .wrapper {
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
@@ -31,83 +32,82 @@ body {
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 
-
-/* Typing animation end */
-
-
+/* Header Styling */
 header a {
-    @apply hover:cursor-pointer hover:text-primary; 
+  @apply hover:cursor-pointer hover:text-primary;
 }
 
+/* Frontend Styling */
 .frontend a {
-    @apply text-lg text-white px-5 mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
-}
-.fullstack a {
-  @apply text-lg text-white px-5 mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
-}
-
-body p, h1, h2, a {
-    @apply text-support;
+  @apply text-lg text-white px-0 mb-0 md:px-5 md:mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
 }
 
 .frontend p {
-    @apply p-2 m-2;
+  @apply p-2 m-2;
 }
 
 .frontend img {
-    @apply  w-[100%] h-[15em] rounded-3xl object-cover;
-}
-.fullstack img {
-    @apply  w-[100%] h-[15em] rounded-3xl object-fill;
-}
-
-h2 {
-  @apply text-primary pt-[1em];
+  @apply w-[100%] h-[15em] rounded-3xl object-cover;
 }
 
 .frontend h2 {
-    @apply text-center capitalize text-2xl font-serif font-thin;
+  @apply text-center capitalize text-2xl font-serif font-thin;
 }
 
 .frontend h3 {
-    @apply text-center break-words font-extrabold text-3xl p-6;
+  @apply text-center break-words font-extrabold text-3xl p-6;
 }
 
-.fullstack a {
-    @apply text-lg text-white px-5 mb-2 hover:ring ring-primary w-full;
-}
-
-.fullstack p {
-   @apply m-2 p-2;
-}
-
-  h2 {
-    @apply my-5;
-  }
-  
 .frontend li {
   @apply text-primary mt-1;
 }
 
-  @media (max-width: 991px) {
+/* Fullstack Styling */
+.fullstack a {
+  @apply text-white px-5 mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
+}
 
-    .typing-demo {
-      text-align: center;
-      animation: none;
-      width: 100%;
-    }
-    .avatar {
-      position: fixed;
-      bottom: 1em;
-    }
+.fullstack img {
+  @apply w-[100%] h-[15em] rounded-3xl object-fill;
+}
+
+.fullstack p {
+  @apply m-2 p-2;
+}
+
+/* Additional Styling */
+body p, h1, h2, a {
+  @apply text-support;
+}
+
+h2 {
+  @apply text-primary pt-[1em] my-5;
+}
+
+.fullstack a {
+  @apply text-white px-5 mb-2 hover:ring ring-primary w-full;
+}
+
+/* Responsive Styling */
+@media (max-width: 991px) {
+  .typing-demo {
+    text-align: center;
+    animation: none;
+    width: 100%;
   }
+
+  .avatar {
+    position: fixed;
+    bottom: 1em;
+  }
+}
