@@ -523,7 +523,7 @@ video {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .container {
     max-width: 768px;
   }
@@ -1094,7 +1094,7 @@ h2 {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1180px) {
   .md\:sticky {
     position: sticky;
   }
