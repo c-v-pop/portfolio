@@ -43,6 +43,3 @@ Secure API development for a hot sauce e-commerce site.
 Full-stack social media application for photo sharing and interaction.
 
 **Technologies Used:** HTML, CSS, JavaScript, Vue.js, Node.js, Express, PostgreSQL, Authentication (JWT)
-
-
-Find my Resume Attached.
