@@ -109,4 +109,8 @@ h2 {
     position: fixed;
     bottom: 1em;
   }
+  .frontend a {
+    width: 95%;
+    align-self: center;
+  }
 }
