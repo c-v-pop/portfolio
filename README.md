@@ -1,6 +1,6 @@
 # README
 
-Welcome to my GitHub repository!
+Welcome to my GitHub repository
 
 ## About Me
 
