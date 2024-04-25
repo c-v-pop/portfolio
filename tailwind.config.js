@@ -9,6 +9,7 @@ module.exports = {
         'secondary': '#112240',
         'support-200': '#8892B0',
         'support': '#CCD6F6',
+        'secondary-bg': '#112440',
       },
     },
   },
