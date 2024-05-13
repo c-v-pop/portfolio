@@ -4,7 +4,7 @@ Welcome to my GitHub repository
 
 ## About Me
 
-I'm Ciprian Pop, a Web Developer passionate about creating innovative digital experiences.
+I'm Ciprian Pop, a Web Developer passionate about creating innovative digital experiences!
 
 ## Projects
 
