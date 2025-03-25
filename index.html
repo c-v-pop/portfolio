@@ -12,166 +12,132 @@
 </head>
 
 <body class="bg-main-bg">
-    <header>
-        <nav
-            class="flex flex-wrap justify-between container m-auto text-sm md:text-lg py-2 my-3 md:sticky md:top-0 bg-main-bg">
-            <div class="w-20 h-20 rounded-full bg-support-200 p-1 m-1 hover:bg-primary avatar">
-                <a href="#nav">
-                    <img src="./images/avatar.PNG" alt="avatar" class="rounded-full bg-main-bg">
-                </a>
-            </div>
+<header>
+    <nav
+        class="flex flex-wrap justify-between container m-auto text-sm md:text-lg py-2 my-3 md:sticky md:top-0 bg-main-bg">
+        <div class="w-20 h-20 rounded-full bg-support-200 p-1 m-1 hover:bg-primary avatar">
+            <a href="#nav">
+                <img src="./images/avatar.PNG" alt="avatar" class="rounded-full bg-main-bg">
+            </a>
+        </div>
 
-            <div class="flex items-center" id="nav">
-                <a href="#fullstack" class="py-5 px-10">Fullstack / Backend Projects</a>
-                <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail"
-                    class="mx-4 md:py-5 md:px-10">Get in touch</a>
-                <a href="media/13.Ciprian_Pop.pdf"
-                    class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary"
-                    download="C_V_Pop.pdf">Resume</a>
-            </div>
-        </nav>
-        <div class="wrapper md:py-40 md:mt-8 mt-10">
-            <div class="typing-demo text-center">
-                <h1 class="md:py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
-                    <span class="text-primary">Ciprian Pop</span>,
-                    and I'm a Web developer
-                </h1>
-            </div>
-            <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[60%]">I am a professional web
-                developer with a passion for creating user-friendly and visually appealing websites. With expertise in
-                HTML, CSS, JavaScript, and various web development frameworks, I bring a wealth of technical skills to
-                every project. My goal is to design and develop websites that meet the unique needs of each client and
-                enhance their online presence.
-            </p>
-<div class="flex flex-col gap-8 md:flex-row justify-center items-center my-8">
-    <a href="#frontend"
-        class="text-center text-primary border-2 border-primary bg-transparent p-4 md:p-6 rounded-md text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
-        Frontend Projects
+        <div class="flex items-center" id="nav">
+            <a href="#fullstack" class="py-5 px-10 font-bold text-primary">Fullstack / Backend Projects</a>
+            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail"
+                class="mx-4 md:py-5 md:px-10 font-bold text-secondary">Get in touch</a>
+            <a href="media/13.Ciprian_Pop.pdf"
+                class="py-5 px-10 border-support border-4 hover:border-primary hover:shadow-xl hover:shadow-primary font-bold text-primary"
+                download="C_V_Pop.pdf">Resume</a>
+        </div>
+    </nav>
+    <div class="wrapper md:py-40 md:mt-8 mt-10">
+        <div class="typing-demo text-center">
+            <h1 class="md:py-8 text-[0.45em] md:text-4xl font-serif">Hello there! I'm
+                <span class="text-primary font-extrabold">Ciprian Pop</span>,
+                and I'm a <span class="text-accent font-bold">Web Developer</span>
+            </h1>
+        </div>
+        <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[60%]">I am a <span class="font-bold text-accent">professional web developer</span> with a passion for creating <span class="font-bold text-support">user-friendly</span> and <span class="font-bold text-support">visually appealing</span> websites. With expertise in <span class="font-bold text-primary">HTML</span>, <span class="font-bold text-primary">CSS</span>, <span class="font-bold text-primary">JavaScript</span>, and various <span class="font-bold text-accent">web development frameworks</span>, I bring a wealth of technical skills to every project. My goal is to <span class="font-bold text-support">design</span> and <span class="font-bold text-support">develop websites</span> that meet the unique needs of each client and enhance their <span class="font-bold text-secondary">online presence</span>.
+        </p>
+        <div class="flex flex-col gap-8 md:flex-row justify-center items-center my-8">
+            <a href="#frontend"
+                class="text-center text-primary border-2 border-primary bg-transparent p-4 md:p-6 rounded-md text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
+                Frontend Projects
+            </a>
+            <a href="#fullstack"
+                class="text-center text-primary border-2 border-primary bg-transparent p-4 md:p-6 rounded-md text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
+                Fullstack Projects
+            </a>
+        </div>
+    </div>
+</header>
+
+       <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-primary" id="frontend">Frontend Development</h2>
+<div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
+    <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 bg-secondary flex flex-col flex-1 border-2 border-primary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+        <div class="flex flex-col">
+            <h3 class="text-center text-2xl font-bold">Reservia</h3>
+            <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 rounded-lg">
+        </div>
+        <div class="flex flex-col md:mt-10">
+            <p class="text-lg text-center">Reservia website is designed to provide an optimal viewing and interaction experience on any device. Whether you're using a desktop computer, tablet, or smartphone, our fully responsive website will automatically adjust to the screen size and resolution for seamless navigation and an enjoyable user experience. With a focus on mobile-first design, your website visitors can access all of the features and content on the go, anytime, anywhere.</p>
+        </div>
     </a>
-    <a href="#fullstack"
-        class="text-center text-primary border-2 border-primary bg-transparent p-4 md:p-6 rounded-md text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
-        Fullstack Projects
+    <a href="https://c-v-pop.github.io/ohmyfood/" class="bg-secondary flex flex-col flex-1 border-2 border-primary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+        <div class="flex flex-col">
+            <h3 class="text-center text-2xl font-bold">OhMyFood</h3>
+            <img src="./images/ohmyfoodwebp.webp" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5 rounded-lg">
+        </div>
+        <div class="flex flex-col md:mt-10 mr-auto">
+            <p class="text-lg text-center">Ohmyfood is a new startup that wants to make a name for itself in the restaurant business. The objective is to develop a 100% mobile-friendly site that lists the menus of gourmet restaurants. In addition to having a classic reservation system, customers will be able to select the dishes they want for their meal so that they are ready when they arrive. No more wait times in restaurants!</p>
+        </div>
+    </a>
+    <a href="https://c-v-pop.github.io/GoMikeDesigns/" class="space-x-3.5 bg-secondary flex flex-col flex-1 border-2 border-primary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+        <div class="flex flex-col">
+            <h3 class="text-center text-2xl font-bold">GoMikeDesigns</h3>
+            <img src="./images/seo.jpg" alt="" class="sm p-5 rounded-lg">
+        </div>
+        <div class="flex flex-col md:mt-10 mr-auto">
+            <p class="text-lg text-center">GoMikeDesigns is a freelance web designer who lives in Atlanta. Many local shops have outdated websites, so he approached a few and landed his first clients. But now he would like potential customers to find him when they Google for local freelance web designers to hire.</p>
+        </div>
+    </a>
+    <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 bg-secondary flex flex-col flex-1 border-2 border-primary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+        <div class="flex flex-col">
+            <h3 class="text-center text-2xl font-bold">De Vorba cu Sufletul</h3>
+            <img src="https://vorbacusufletul.wordpress.com/wp-content/uploads/2024/05/bgimage-1.jpg?w=1024" alt="" class="sm p-5 rounded-lg">
+        </div>
+        <div class="flex flex-col md:mt-10 mr-auto">
+            <p class="text-lg text-center">Engineered and deployed a WordPress-based blog for a family constellation practitioner. Integrated a variety of premium themes and widgets to construct a visually appealing and highly functional user experience. Implemented tailored SEO techniques to maximize search engine visibility and attract relevant traffic to the site.</p>
+        </div>
     </a>
 </div>
-
-    </header>
-    <main>
-        <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="frontend">Frontend development</h2>
-            <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
-                <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 bg-secondary flex flex-col flex-1">
-                    <div class="flex flex-col">
-                        <h3> Reservia </h3>
-                        <img src="https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg" alt="Html and Css logo" class="sm p-5">
-                    </div>
-                    <div class="flex flex-col md:mt-10">
-                        <p>Reservia website is designed to provide an optimal viewing and interaction experience on any
-                            device. Whether you're using a desktop computer, tablet, or smartphone, our fully responsive
-                            website will automatically adjust to the screen size and resolution for seamless navigation
-                            and an enjoyable user experience. With a focus on mobile-first design, your website visitors
-                            can access all of the features and content on the go, anytime, anywhere.</p>
-                    </div>
-                </a>
-                <a href="https://c-v-pop.github.io/ohmyfood/" class="bg-secondary flex flex-col flex-1">
-                    <div class="flex flex-col">
-                        <h3 class="text-center"> OhMyFood</h3>
-                        <img src="https://ih1.redbubble.net/image.541306918.9630/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" alt="Plate of food" class="sm w-4/5 ml-auto h-auto p-5">
-                    </div>
-                    <div class="flex flex-col md:mt-10 mr-auto">
-                        <p>Ohmyfood is a new startup that wants to make a name for itself in the restaurant business.
-                            The objective is to develop a 100% mobile-friendly site that lists the menus of gourmet
-                            restaurants. In addition to having a classic reservation system, customers will be able to
-                            select the dishes they want for their meal so that they are ready when they arrive. No more
-                            wait times in restaurants!</p>
-                    </div>
-                </a>
-                <a href="https://c-v-pop.github.io/GoMikeDesigns/"
-                    class="space-x-3.5 bg-secondary flex flex-col flex-1">
-                    <div class="flex flex-col">
-                        <h3 class="text-center"> GoMikeDesigns</h3>
-                        <img src="https://www.webnode.com/blog/wp-content/uploads/2019/07/1-SEO.jpg"
-                            alt="" class="sm p-5">
-                    </div>
-                    <div class="flex flex-col md:mt-10 mr-auto">
-                        <p>GoMikeDesigns is a freelance web designer who lives in Atlanta. Many local shops have
-                            outdated websites, so he approached a few and landed his first clients. But now he would
-                            like potential customers to find him when they Google for local freelance web designers to
-                            hire. </p>
-                    </div>
-                </a>
-                 <a href="https://vorbacusufletul.wordpress.com/"
-                    class="space-x-3.5 bg-secondary flex flex-col flex-1">
-                    <div class="flex flex-col">
-                        <h3 class="text-center"> De Vorba cu Sufletul</h3>
-                        <img src="https://vorbacusufletul.wordpress.com/wp-content/uploads/2024/05/bgimage-1.jpg?w=1024"
-                            alt="" class="sm p-5">
-                    </div>
-                    <div class="flex flex-col md:mt-10 mr-auto">
-                        <p>Engineered and deployed a WordPress-based blog for a family constellation practitioner. Integrated a variety of premium themes and widgets to construct a visually 
-                            appealing and highly functional user experience. Implemented tailored SEO techniques to maximize search engine visibility and attract relevant traffic to the site. </p>
-                    </div>
-                </a>
-            </div>
            <!-- <div class="flex">
                 <a href="#fullstack"
                     class="text-center my-8 md:my-4 text-primary border-2 border-primary bg-transparent mb-[2.5em] md:p-4 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">More
                     Projects</a>
             </div> -->
-            <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="fullstack">Fullstack projects</h2>
-            <p class="text-center mb-4">These projects are available on my GitHub account</p>
-            <div class="flex flex-col md:flex-row py-4 gap-6 fullstack" id="fullstack">
-                <a href="https://c-v-pop.github.io/P5-Web-Dev-Kanap/" class=" bg-secondary flex flex-col">
-                    <div class="flex flex-col">
-                        <h3 class="text-center">Kanap</h3>
-                        <img src="https://miro.medium.com/v2/resize:fit:1080/1*ZfVpv2z8i9I-IPw6sAUP8g.png" alt="placeholder" class="object-fill">
-                    </div>
-                    <div class="flex flex-row mt-20">
-                        <p>In this project, I had to create an e-commerce site for a company selling sofas.
-                            The backend and the API being provided to us, we had to create the frontend.
-                            The site had to be responsive, and work on all browsers.
-                            For more details on the constraints and instructions of the project, I invite you to consult
-                            the github by clicking on the image</p>
-                    </div>
-                </a>
-                <a href="https://github.com/c-v-pop/GroupMyApp" class=" bg-secondary flex flex-col">
-                    <div class="flex flex-col">
-                        <h3 class="text-center">Groupomania App</h3>
-                        <img src="https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png" alt="placeholder" class="object-cover">
-                    </div>
-                    <div class="flex flex-col mt-20">
-                        <p>This project is a full-stack social media application that allows users to create an account,
-                            upload photos, and comment on other users' posts. The application is built from scratch
-                            using ReactJS for the front-end, NodeJS and ExpressJS for the back-end, Multer for file
-                            uploads, Bcrypt for password encryption, jsonwebtoken for authentication, and MySQL for the
-                            database.</p>
-                    </div>
-                </a>
-                        <a href="https://laalexiaatelier.co.uk/" class=" bg-secondary flex flex-col">
-                    <div class="flex flex-col">
-                        <h3 class="text-center">LaAlexia Beauty Salon</h3>
-                        <img src="https://laalexiaatelier.co.uk/images/logo.webp" alt="Alexia website logo" class="object-cover">
-                    </div>
-                    <div class="flex flex-col mt-20">
-                        <p>Fully built a beauty salon website for a client, using Booksy for appointments</p>
-                        <p>Using Laravel, TailwindCSS, JavaScript, GitHub, Devtools for SEO, hosting on GoDaddy and ploi.io for deployment</p>
-                    </div>
-                </a>
-                <a href="https://github.com/c-v-pop/to-do-list" class=" bg-secondary flex flex-col">
-                    <div class="flex flex-col">
-                        <h3 class="text-center">Laravel To-Do List</h3>
-                        <img src="https://miro.medium.com/v2/resize:fit:556/1*99kbd9v5SEnx21DrPBRa_g.jpeg" alt="placeholder" class="object-cover">
-                    </div>
-                    <div class="flex flex-col mt-20">
-                        <p>With Laravel as the PHP framework, MySQL for the database, and Tailwind CSS for styling, 
-                            I've crafted a seamless experience for managing tasks.</p>
-                        <p>Using Laravel, I structured the app with MVC architecture for scalability. 
-                            MySQL handled task storage efficiently with its relational database capabilities. 
-                            PHP facilitated backend logic for task management seamlessly. 
-                            Tailwind CSS provided responsive UI styling for a polished look and feel.
-                        </div>
-                </a>
-                <div>
-                </div>
-            </div>
-    </main>
+           <h2 class="text-center capitalize font-mono font-extrabold text-4xl" id="fullstack">Fullstack projects</h2>
+<p class="text-center mb-4">These projects are available on my GitHub account</p>
+<div class="flex flex-col md:flex-row py-4 gap-6 fullstack" id="fullstack">
+    <a href="https://c-v-pop.github.io/P5-Web-Dev-Kanap/" class="space-x-3.5 bg-secondary flex flex-col flex-1 rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow">
+        <div class="flex flex-col">
+            <h3 class="text-center text-primary font-semibold">Kanap</h3>
+            <img src="https://miro.medium.com/v2/resize:fit:1080/1*ZfVpv2z8i9I-IPw6sAUP8g.png" alt="placeholder" class="object-cover rounded-t-lg">
+        </div>
+        <div class="flex flex-col mt-10 p-4">
+            <p class="text-sm text-gray-600">In this project, I had to create an e-commerce site for a company selling sofas. The backend and the API being provided to us, we had to create the frontend. The site had to be responsive, and work on all browsers. For more details on the constraints and instructions of the project, I invite you to consult the GitHub by clicking on the image.</p>
+        </div>
+    </a>
+    <a href="https://github.com/c-v-pop/GroupMyApp" class="space-x-3.5 bg-secondary flex flex-col flex-1 rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow">
+        <div class="flex flex-col">
+            <h3 class="text-center text-primary font-semibold">Groupomania App</h3>
+            <img src="./images/groupomania.jpg" alt="Sky-scrapper buildings" class="object-cover rounded-t-lg">
+        </div>
+        <div class="flex flex-col mt-10 p-4">
+            <p class="text-sm text-gray-600">This project is a full-stack social media application that allows users to create an account, upload photos, and comment on other users' posts. The application is built from scratch using ReactJS for the front-end, NodeJS and ExpressJS for the back-end, Multer for file uploads, Bcrypt for password encryption, jsonwebtoken for authentication, and MySQL for the database.</p>
+        </div>
+    </a>
+    <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 bg-secondary flex flex-col flex-1 rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow">
+        <div class="flex flex-col">
+            <h3 class="text-center text-primary font-semibold">LaAlexia Beauty Salon</h3>
+            <img src="./images/alexia.webp" alt="Alexia website logo" class="object-cover rounded-t-lg">
+        </div>
+        <div class="flex flex-col mt-10 p-4">
+            <p class="text-sm text-gray-600">Fully built a beauty salon website for a client, using Booksy for appointments. Using Laravel, TailwindCSS, JavaScript, GitHub, Devtools for SEO, hosting on GoDaddy and ploi.io for deployment.</p>
+        </div>
+    </a>
+    <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 bg-secondary flex flex-col flex-1 rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary transition-shadow">
+        <div class="flex flex-col">
+            <h3 class="text-center text-primary font-semibold">Laravel To-Do List</h3>
+            <img src="./images/dolist.jpg" alt="To-Do list notebook" class="object-cover rounded-t-lg">
+        </div>
+        <div class="flex flex-col mt-10 p-4">
+            <p class="text-sm text-gray-600">With Laravel as the PHP framework, MySQL for the database, and Tailwind CSS for styling, I've crafted a seamless experience for managing tasks. Using Laravel, I structured the app with MVC architecture for scalability. MySQL handled task storage efficiently with its relational database capabilities. PHP facilitated backend logic for task management seamlessly. Tailwind CSS provided responsive UI styling for a polished look and feel.</p>
+        </div>
+    </a>
+</div>
+        <footer>
+        <p>&copy; 2025 Ciprian Pop. All rights reserved.</p>
+    </footer>
 </body>
 </html>
