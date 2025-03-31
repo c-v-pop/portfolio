@@ -77,7 +77,7 @@ header a {
 }
 
 .fullstack img {
-  @apply w-[100%] h-[15em] rounded-3xl object-fill;
+  @apply w-[100%] h-[15em] rounded-3xl object-cover;
 }
 
 .fullstack p {
