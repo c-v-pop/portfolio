@@ -13,7 +13,6 @@ Hi! I'm **Ciprian Pop**, a professional Web Developer passionate about crafting 
 - HTML / CSS / JavaScript
 - Laravel / PHP / MySQL
 - TailwindCSS
-- WordPress Development
 - Git & GitHub
 - Responsive & Mobile-First Design
 
