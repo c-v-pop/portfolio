@@ -56,7 +56,7 @@ header a {
 }
 
 .frontend img {
-  @apply w-[100%] h-[20em] rounded-3xl object-cover;
+  @apply w-[100%] h-[18em] rounded-3xl object-cover;
 }
 
 .frontend h2 {
