@@ -1,6 +1,7 @@
 # 🌐 Ciprian Pop's Developer Portfolio
 
-Welcome to my personal portfolio website — a showcase of my journey, experience, and the work I’m most proud of as a **Web Developer**. Built using **HTML, TailwindCSS, and JavaScript**, this responsive site reflects my front-end and full-stack development skills.
+Welcome to my personal portfolio website — a showcase of my journey, experience, and the work I’m most proud of as a **Web Developer**. 
+Built using **HTML, TailwindCSS, and JavaScript**, this responsive site reflects my front-end and full-stack development skills.
 
 > ✨ Live Demo: https://c-v-pop.co.uk
 
