@@ -4,6 +4,8 @@ Welcome to my personal portfolio website — a showcase of my journey, experienc
 Built using **HTML, TailwindCSS, and JavaScript**, this responsive site reflects my front-end and full-stack development skills.
 
 > ✨ Live Demo: https://c-v-pop.co.uk
+>
+> 06.05.2025 --- Started integrating Laravel into my existing website
 
 ---
 
