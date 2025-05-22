@@ -70,6 +70,9 @@ header a {
 .frontend li {
   @apply text-primary mt-1;
 }
+button {
+ @apply w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition;
+}
 
 /* Fullstack Styling */
 .fullstack a {
@@ -110,6 +113,10 @@ h2 {
     bottom: 1em;
   }
   .frontend a {
+    width: 95%;
+    align-self: center;
+  }
+  .fullstack a {
     width: 95%;
     align-self: center;
   }
