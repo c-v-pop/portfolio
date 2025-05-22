@@ -1004,11 +1004,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-\[0\.45em\] {
   font-size: 0.45em;
 }
@@ -1207,9 +1202,16 @@ header a:hover {
   overflow-wrap: break-word;
   padding: 1.5rem;
   text-align: center;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  .frontend h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 .frontend li {
@@ -1273,6 +1275,18 @@ button:hover {
 body p, h1, h2, a {
   --tw-text-opacity: 1;
   color: rgb(204 214 246 / var(--tw-text-opacity, 1));
+}
+
+.fullstack h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .fullstack h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 h2 {

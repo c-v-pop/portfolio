@@ -64,7 +64,7 @@ header a {
 }
 
 .frontend h3 {
-  @apply text-center break-words font-extrabold text-3xl p-6;
+  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6;
 }
 
 .frontend li {
@@ -90,6 +90,9 @@ button {
 /* Additional Styling */
 body p, h1, h2, a {
   @apply text-support;
+}
+.fullstack h3 {
+  @apply text-lg md:text-4xl;
 }
 
 h2 {
