@@ -4,12 +4,12 @@ module.exports = {
     theme: {
     extend: {
       colors: {
-        'main-bg': '#0A192F',
-        'primary': '#64FFDA',
-        'secondary': '#112240',
-        'support-200': '#8892B0',
-        'support': '#CCD6F6',
-        'secondary-bg': '#112440',
+      'main-bg': '#0D1B2A',        // Deep navy for high contrast
+      'primary': '#00C9A7',        // Vibrant aqua green for accents
+      'secondary': '#1B263B',      // Muted navy for contrast areas
+      'support-200': '#A8B2D1',    // Soft slate for subtle text
+      'support': '#F1F3F8',        // Near white for main text
+      'secondary-bg': '#11243B',   // Slightly lighter than main-bg for cards/sections
       },
     },
   },
