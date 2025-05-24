@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: monospace;
+  background-color: #F4F9FF; /* main-bg */
 }
 
 /* Typing Animation */
@@ -25,9 +26,10 @@ body {
   animation: typing 3s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  border-right: 3px solid #1E3A8A; /* support */
   font-family: monospace;
   font-size: 2em;
+  color: #1E3A8A; /* support */
 }
 
 @keyframes typing {
@@ -44,15 +46,16 @@ body {
 
 /* Header Styling */
 header a {
-  @apply hover:cursor-pointer hover:text-primary;
+  @apply hover:cursor-pointer hover:text-[#FF6B6B]; /* primary */
 }
 
 /* Frontend Styling */
 .frontend a {
-  @apply text-lg text-white px-0 mb-0 md:px-5 md:mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
+  @apply text-lg text-[#11b8a7] px-0 mb-0 md:px-5 md:mb-2 hover:shadow-[0_0_10px_3px_#FF6B6B];
 }
+
 .frontend p {
-  @apply p-2 m-2;
+  @apply p-2 m-2 text-[#4DABF7]; /* support-200 */
 }
 
 .frontend img {
@@ -60,23 +63,24 @@ header a {
 }
 
 .frontend h2 {
-  @apply text-center capitalize text-2xl font-serif font-thin;
+  @apply text-center capitalize text-2xl font-serif font-thin text-[#1E3A8A]; /* support */
 }
 
 .frontend h3 {
-  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6;
+  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#FF6B6B]; /* primary */
 }
 
 .frontend li {
-  @apply text-primary mt-1;
+  @apply text-[#4DABF7] mt-1; /* support-200 */
 }
+
 button {
- @apply w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition;
+  @apply w-full bg-[#4DABF7] text-white py-2 rounded-xl hover:bg-[#1E3A8A] transition; /* button contrast */
 }
 
 /* Fullstack Styling */
 .fullstack a {
-  @apply text-white px-5 mb-2 hover:shadow-[0_0_10px_3px_#64FFDA];
+  @apply text-[#11b8a7] px-5 mb-2 hover:shadow-[0_0_10px_3px_#FF6B6B];
 }
 
 .fullstack img {
@@ -84,23 +88,24 @@ button {
 }
 
 .fullstack p {
-  @apply m-2 p-2;
+  @apply m-2 p-2 text-[#4DABF7]; /* support-200 */
 }
 
 /* Additional Styling */
 body p, h1, h2, a {
-  @apply text-support;
+  @apply text-[#11b8a7]; /* support */
 }
+
 .fullstack h3 {
-  @apply text-lg md:text-4xl;
+  @apply text-lg md:text-4xl text-[#FF6B6B]; /* primary */
 }
 
 h2 {
-  @apply text-primary pt-[1em] my-5;
+  @apply text-[#FF6B6B] pt-[1em] my-5; /* primary */
 }
 
 .fullstack a {
-  @apply text-white px-5 mb-2 hover:ring ring-primary w-full;
+  @apply text-[#1E3A8A] px-5 mb-2 hover:ring ring-[#FF6B6B] w-full;
 }
 
 /* Responsive Styling */
@@ -115,10 +120,8 @@ h2 {
     position: fixed;
     bottom: 2em;
   }
-  .frontend a {
-    width: 95%;
-    align-self: center;
-  }
+
+  .frontend a,
   .fullstack a {
     width: 95%;
     align-self: center;
