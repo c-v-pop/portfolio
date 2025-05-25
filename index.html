@@ -19,6 +19,13 @@
             x.style.display = "block";
          }
       }
+      
+      window.addEventListener('scroll', function() {
+         var x = document.getElementById("myLinks");
+         if (x.style.display === "block") {
+            x.style.display = "none";
+         }
+      });
    </script>
    <title>Ciprian Pop's Portfolio</title>
 </head>
@@ -36,17 +43,20 @@
             <a href="javascript:void(0);" class="text-white text-2xl" onclick="myFunction()">
                <i class="fa fa-bars"></i>
             </a>
-            <div id="myLinks" style="display: none;" class="absolute right-0 mt-2 bg-white/20 text-[#1E3A8A] shadow-lg rounded p-6 z-50 flex flex-col space-y-2">
+            <div id="myLinks" style="display: none;" class="fixed right-0 mt-2 bg-black/80 text-[#1E3A8A] shadow-lg rounded py-10 z-50 space-y-2 w-full mx-auto text-center">
                <a href="https://github.com/c-v-pop" target="_blank" class="hover:text-[#FF6B6B]">GitHub Page</a>
+               <hr class="text-support w-1/3 mx-auto">
                <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail" class="hover:text-[#FF6B6B]">Get in touch</a>
+               <hr class="text-support w-1/2 mx-auto">
                <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="hover:text-[#FF6B6B]">Resume</a>
+               <hr class="text-support w-1/3 mx-auto">
             </div>
             
          </div>
          <!-- Avatar + Tooltip -->
          <div class="relative w-20 h-20 rounded-full bg-[#FF6B6B]/40 p-1 m-1 group hover:bg-[#FF6B6B] transition">
             <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank">
-               <img src="./images/avatar.PNG" alt="avatar" class="rounded-full bg-white/60" />
+               <img src="./images/avatar.PNG" alt="avatar" class="rounded-full bg-black" />
             </a>
             <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-[#1E3A8A] text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
                Visit My LinkedIn
@@ -131,123 +141,111 @@
          </div>
       </a>
    </div>
-   <div class="flex mt-6">
-      <a href="#fullstack"
-      class="text-center animate-bounce my-8 md:my-4 text-primary border-2 border-primary/90 bg-transparent md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
-      <i class="fas fa-arrow-down"></i>
-   </a>
-</div>
-<div class="flex flex-col md:flex-row py-4 gap-6 fullstack" id="fullstack">
-   <a href="https://laalexiaatelier.co.uk/" target="_blank" class="md:space-x-3.5 bg-black/75 flex flex-col flex-1 border-2 border-secondary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
-      <div class="flex flex-col">
-         <h3 class="text-center font-bold">LaAlexia Beauty Salon</h3>
-         <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 rounded-lg">
-      </div>
-      <div class="flex flex-col md:mt-10 bg-black/60 rounded-md h-full">
-         <p class="text-lg text-left">
-            I <span class="font-bold text-secondary">fully built a website</span> for a top beauty salon in my town, 
-            <span class="font-bold text-secondary">LaAlexia Beauty Salon</span>, from scratch.  
-            I handled <span class="font-bold text-secondary">hosting & deployment</span> via <span class="font-bold text-secondary">GoDaddy</span> and <span class="font-bold text-secondary">Ploi.io</span>.  
-            The site features an integrated <span class="font-bold text-secondary">Booksy</span> appointment system and was built using  
-            <span class="font-bold text-secondary">Laravel, TailwindCSS, and JavaScript</span>, with <span class="font-bold text-secondary">SEO optimizations</span> applied for visibility.
-         </p>
-      </div>
-   </a>
-   <a href="https://github.com/c-v-pop/to-do-list" target="_blank" class="md:space-x-3.5 bg-black/65 flex flex-col flex-1 border-2 border-secondary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
-      <div class="flex flex-col">
-         <h3 class="text-center font-bold">Laravel To-Do List</h3>
-         <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 rounded-lg">
-      </div>
-      <div class="flex flex-col md:mt-10 bg-black/60 rounded-md h-full">
-         <p class="text-lg text-left">
-            This <span class="font-bold text-secondary">Laravel To-Do List</span> project was part of a <span class="font-bold text-secondary">technical test</span>.  
-            It was built with <span class="font-bold text-secondary">Laravel</span>, <span class="font-bold text-secondary">MySQL</span>, and <span class="font-bold text-secondary">Tailwind CSS</span>.  
-            The app follows the <span class="font-bold text-secondary">MVC architecture</span>, ensuring scalability and efficient task management.  
-            The backend logic is powered by <span class="font-bold text-secondary">PHP</span>, while the responsive UI provides a smooth experience.
-         </p>
-      </div>
-   </a>
-</div>
-<h2 class="text-center mb-4 break-before-auto text-xl bg-black/75 max-w-2xl m-auto pb-4">These projects are also available on my <a href="https://github.com/c-v-pop" target="_blank" class="text-secondary/65 hover:text-secondary"> GitHub </a>account</h2>
-<div class="flex mt-6">
-   <a href="#offers"
-   class="text-center animate-bounce md:my-4 text-primary border-2 border-primary/90 bg-transparent md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
-   <i class="fas fa-arrow-down"></i>
-</a>
-</div>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-black/80 rounded-lg" id="offers">
-   <h2 class="text-3xl font-bold text-center mb-8">Website Packages Offers</h2>
-   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Starter Plan -->
-      <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between">
-         <div>
-            <h3 class="text-xl font-semibold mb-2 text-white">Starter</h3>
-            <p class="text-secondary mb-4">Great for portfolios or simple landing pages.</p>
-            <ul class="space-y-2 text-sm text-white">
-               <li>✅ One-page responsive design</li>
-               <li>✅ Contact form</li>
-               <li>✅ Basic SEO setup</li>
-               <li>✅ 1 revision</li>
-               <li>🚫 No admin panel or blog</li>
-            </ul>
+   <div class="flex flex-col md:flex-row py-4 gap-6 fullstack" id="fullstack">
+      <a href="https://laalexiaatelier.co.uk/" target="_blank" class="md:space-x-3.5 bg-black/75 flex flex-col flex-1 border-2 border-secondary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+         <div class="flex flex-col">
+            <h3 class="text-center font-bold">LaAlexia Beauty Salon</h3>
+            <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 rounded-lg">
          </div>
-         <div class="mt-6">
-            <p class="text-2xl font-bold mb-2">£150</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-               <button>Contact Me</button>
-            </a>
+         <div class="flex flex-col md:mt-10 bg-black/60 rounded-md h-full">
+            <p class="text-lg text-left">
+               I <span class="font-bold text-secondary">fully built a website</span> for a top beauty salon in my town, 
+               <span class="font-bold text-secondary">LaAlexia Beauty Salon</span>, from scratch.  
+               I handled <span class="font-bold text-secondary">hosting & deployment</span> via <span class="font-bold text-secondary">GoDaddy</span> and <span class="font-bold text-secondary">Ploi.io</span>.  
+               The site features an integrated <span class="font-bold text-secondary">Booksy</span> appointment system and was built using  
+               <span class="font-bold text-secondary">Laravel, TailwindCSS, and JavaScript</span>, with <span class="font-bold text-secondary">SEO optimizations</span> applied for visibility.
+            </p>
          </div>
-      </div>
-      <!-- Business Plan -->
-      <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between border-blue-500">
-         <div>
-            <h3 class="text-xl font-semibold mb-2 text-white">Business</h3>
-            <p class="text-secondary mb-4">Ideal for service-based small businesses.</p>
-            <ul class="space-y-2 text-sm text-white">
-               <li>✅ Up to 5 pages (Home, About, Services, Contact, etc.)</li>
-               <li>✅ Contact form with spam protection</li>
-               <li>✅ Mobile responsive</li>
-               <li>✅ Basic SEO & Google Maps</li>
-               <li>✅ 2 revisions</li>
-            </ul>
+      </a>
+      <a href="https://github.com/c-v-pop/to-do-list" target="_blank" class="md:space-x-3.5 bg-black/65 flex flex-col flex-1 border-2 border-secondary hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+         <div class="flex flex-col">
+            <h3 class="text-center font-bold">Laravel To-Do List</h3>
+            <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 rounded-lg">
          </div>
-         <div class="mt-6">
-            <p class="text-2xl font-bold mb-2">£300</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-               <button>Contact Me</button>
-            </a>
+         <div class="flex flex-col md:mt-10 bg-black/60 rounded-md h-full">
+            <p class="text-lg text-left">
+               This <span class="font-bold text-secondary">Laravel To-Do List</span> project was part of a <span class="font-bold text-secondary">technical test</span>.  
+               It was built with <span class="font-bold text-secondary">Laravel</span>, <span class="font-bold text-secondary">MySQL</span>, and <span class="font-bold text-secondary">Tailwind CSS</span>.  
+               The app follows the <span class="font-bold text-secondary">MVC architecture</span>, ensuring scalability and efficient task management.  
+               The backend logic is powered by <span class="font-bold text-secondary">PHP</span>, while the responsive UI provides a smooth experience.
+            </p>
          </div>
-      </div>
-      <!-- Pro Plan -->
-      <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between">
-         <div>
-            <h3 class="text-xl font-semibold mb-2 text-white">Pro</h3>
-            <p class="text-secondary mb-4">For growing businesses that need content control.</p>
-            <ul class="space-y-2 text-sm text-white">
-               <li>✅ Everything in Business</li>
-               <li>✅ Gallery or Blog section</li>
-               <li>✅ Basic admin panel (CRUD)</li>
-               <li>✅ Up to 8 pages total</li>
-               <li>✅ 3 revisions</li>
-            </ul>
+      </a>
+   </div>
+   <h2 class="text-center mb-4 break-before-auto text-xl bg-black/75 max-w-2xl m-auto pb-4">These projects are also available on my <a href="https://github.com/c-v-pop" target="_blank" class="text-secondary/65 hover:text-secondary"> GitHub </a>account</h2>
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-black/80 rounded-lg" id="offers">
+      <h2 class="text-3xl font-bold text-center mb-8">Website Packages Offers</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+         <!-- Starter Plan -->
+         <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+               <h3 class="text-xl font-semibold mb-2 text-white">Starter</h3>
+               <p class="text-secondary mb-4">Great for portfolios or simple landing pages.</p>
+               <ul class="space-y-2 text-sm text-white">
+                  <li>✅ One-page responsive design</li>
+                  <li>✅ Contact form</li>
+                  <li>✅ Basic SEO setup</li>
+                  <li>✅ 1 revision</li>
+                  <li>🚫 No admin panel or blog</li>
+               </ul>
+            </div>
+            <div class="mt-6">
+               <p class="text-2xl font-bold mb-2">£150</p>
+               <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
+                  <button>Contact Me</button>
+               </a>
+            </div>
          </div>
-         <div class="mt-6">
-            <p class="text-2xl font-bold mb-2">£450</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-               <button>Contact Me</button>
-            </a>
+         <!-- Business Plan -->
+         <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between border-blue-500">
+            <div>
+               <h3 class="text-xl font-semibold mb-2 text-white">Business</h3>
+               <p class="text-secondary mb-4">Ideal for service-based small businesses.</p>
+               <ul class="space-y-2 text-sm text-white">
+                  <li>✅ Up to 5 pages (Home, About, Services, Contact, etc.)</li>
+                  <li>✅ Contact form with spam protection</li>
+                  <li>✅ Mobile responsive</li>
+                  <li>✅ Basic SEO & Google Maps</li>
+                  <li>✅ 2 revisions</li>
+               </ul>
+            </div>
+            <div class="mt-6">
+               <p class="text-2xl font-bold mb-2">£300</p>
+               <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
+                  <button>Contact Me</button>
+               </a>
+            </div>
+         </div>
+         <!-- Pro Plan -->
+         <div class="bg-black/75 shadow-md rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+               <h3 class="text-xl font-semibold mb-2 text-white">Pro</h3>
+               <p class="text-secondary mb-4">For growing businesses that need content control.</p>
+               <ul class="space-y-2 text-sm text-white">
+                  <li>✅ Everything in Business</li>
+                  <li>✅ Gallery or Blog section</li>
+                  <li>✅ Basic admin panel (CRUD)</li>
+                  <li>✅ Up to 8 pages total</li>
+                  <li>✅ 3 revisions</li>
+               </ul>
+            </div>
+            <div class="mt-6">
+               <p class="text-2xl font-bold mb-2">£450</p>
+               <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
+                  <button>Contact Me</button>
+               </a>
+            </div>
          </div>
       </div>
    </div>
-</div>
-<footer>
-   <div class="flex mt-16">
-      <a href="#nav"
-      class="text-center animate-bounce my-8 md:my-4 text-primary border-2 border-primary/90 bg-transparent mb-[2.5em] md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
-      <i class="fas fa-arrow-up"></i>
-   </a>
-</div>
-<p class="text-center m-auto mt-10">&copy; 2025 Ciprian Pop. All rights reserved.</p>
+   <footer>
+      <div class="flex mt-16">
+         <a href="#nav"
+         class="text-center animate-bounce my-8 md:my-4 text-primary border-2 border-primary/90 bg-transparent mb-[2.5em] md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
+         <i class="fas fa-arrow-up"></i>
+      </a>
+   </div>
+   <p class="text-center m-auto mt-10">&copy; 2025 Ciprian Pop. All rights reserved.</p>
 </footer>
 </body>
 </html>
