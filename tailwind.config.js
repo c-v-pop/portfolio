@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'main-bg': '#0E1116',         // Deep charcoal blue for background
-        'primary': '#38BDF8',         // Sky blue for highlights (more contrast)
-        'secondary': '#FBBF24',       // Amber yellow for accents (calls to action)
-        'support-200': '#60A5FA',     // Softer blue for cards or subtle elements
-        'support': '#1D4ED8',         // Bold royal blue for buttons/links
-        'secondary-bg': '#1F2937',    // Dark grey-blue for card backgrounds
-        'text-main': '#F1F5F9',       // Light text
-        'text-muted': '#94A3B8',      // Muted text for less emphasis
+        'main-bg': '#1E1E1E',          // VSCode Dark background - near black with subtle warmth
+        'primary': '#569CD6',          // VSCode blue for keywords, links, buttons
+        'secondary': '#D7BA7D',        // VSCode gold/yellow for strings or highlights
+        'support-200': '#264F78',      // Darker blue, subtle backgrounds or card backgrounds
+        'support': '#007ACC',          // VSCode bright blue - used for active UI elements
+        'secondary-bg': '#252526',     // Slightly lighter dark for secondary cards/backgrounds
+        'text-main': '#D4D4D4',        // VSCode editor default text color (off-white)
+        'text-muted': '#858585',       // Gray for comments or muted text
       },
     },
   },
