@@ -55,7 +55,7 @@ header a {
 }
 
 .frontend p {
-  @apply p-2 m-2 text-[#4DABF7]; /* support-200 */
+  @apply p-2 m-2 text-white;
 }
 
 .frontend img {
@@ -88,12 +88,12 @@ button {
 }
 
 .fullstack p {
-  @apply m-2 p-2 text-[#4DABF7]; /* support-200 */
+  @apply m-2 p-2 text-white; /* support-200 */
 }
 
 /* Additional Styling */
 body p, h1, h2, a {
-  @apply text-[#11b8a7]; /* support */
+  @apply text-white; /* support */
 }
 
 .fullstack h3 {
