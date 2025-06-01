@@ -67,7 +67,7 @@ header a {
 }
 
 .frontend h3 {
-  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#FF6B6B]; /* primary */
+  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#D7BA7D]; /* primary */
 }
 
 .frontend li {
@@ -97,15 +97,18 @@ body p, h1, h2, a {
 }
 
 .fullstack h3 {
-  @apply text-lg md:text-4xl text-[#FF6B6B]; /* primary */
+  @apply text-lg md:text-4xl text-[#D7BA7D]; /* primary */
 }
 
 h2 {
-  @apply text-[#FF6B6B] pt-[1em] my-5; /* primary */
+  @apply text-[#569CD6] pt-[1em] my-5; /* primary */
 }
 
 .fullstack a {
   @apply text-[#1E3A8A] px-5 mb-2 hover:ring ring-[#FF6B6B] w-full;
+}
+#offers li {
+  @apply text-white;
 }
 
 /* Responsive Styling */
