@@ -75,7 +75,7 @@ header a {
 }
 
 button {
-  @apply w-full bg-support/60 text-white py-2 rounded-xl hover:bg-support-200 duration-300 transition; /* button contrast */
+  @apply w-full text-white py-2 rounded-xl hover:bg-support-200 duration-300 transition; /* button contrast */
 }
 
 /* Fullstack Styling */
@@ -89,6 +89,9 @@ button {
 
 .fullstack p {
   @apply m-2 p-2 text-white; /* support-200 */
+}
+.fullstack h3 {
+    @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#D7BA7D]; /* primary */
 }
 
 /* Additional Styling */
