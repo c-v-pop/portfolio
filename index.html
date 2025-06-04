@@ -1,16 +1,16 @@
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Portfolio website for Ciprian Pop, a web developer showcasing projects, skills, and contact details.">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="dist/output.css">
-      <link href="/styles/index.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous" defer></script>
       <!--Custom CSS -->
       <link href="/dist/output.css" rel="stylesheet">
-      <script src="/demo/index.js"></script>
+      <script src="https://cdn.tailwindcss.com" defer></script>
       <script>
          function myFunction() {
             var x = document.getElementById("myLinks");
@@ -30,9 +30,9 @@
       </script>
       <title>Ciprian Pop's Portfolio</title>
    </head>
-   <body class="bg-[url('/images/bgimages.jpg')] bg-no-repeat bg-fixed bg-cover max-w-7xl mx-auto" id="nav">
-      <header class="bg-[rgba(0,0,0,0.7)]" role="banner">
-         <nav class="flex flex-wrap justify-around md:justify-between items-center w-full m-auto py-2 my-3 text-sm md:text-lg bg-[rgba(0,0,0,0.3)] md:sticky md:top-0" role="navigation" aria-label="Main navigation">
+   <body class="bg-[url('./images/bgimage.webp')] bg-no-repeat bg-fixed bg-cover max-w-7xl mx-auto" id="nav">
+      <header class="bg-[rgba(0,0,0,0.7)]">
+         <nav class="flex flex-wrap justify-around md:justify-between items-center w-full m-auto py-2 my-3 text-sm md:text-lg bg-[rgba(0,0,0,0.3)] md:sticky md:top-0" aria-label="Main navigation">
             <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center">
                <a href="https://github.com/c-v-pop" target="_blank" rel="noopener noreferrer" class="py-5 px-6 font-bold text-[#4DABF7] hover:text-[#FF6B6B] transition" title="Visit Ciprian Pop's GitHub profile">
@@ -62,7 +62,7 @@
             <!-- LinkedIn Avatar with Tooltip -->
             <div class="relative md:w-20 md:h-20 h-40 w-40 rounded-full p-1 m-1 group transition-transform duration-300 hover:scale-110">
                <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank" rel="noopener noreferrer" title="Visit Ciprian Pop on LinkedIn">
-               <img src="./images/logo.png" alt="Ciprian Pop's profile picture/logo" class="rounded-full " loading="lazy" />
+               <img src="./images/logo.webp" alt="Ciprian Pop's profile picture/logo" class="rounded-full " loading="lazy">
                </a>
                <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-[#1E3A8A] text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
                Visit My LinkedIn
@@ -94,7 +94,6 @@
             Fullstack Projects
             </a>
          </div>
-      </div>
       </div>
       <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap" id="frontend">
          <a href="https://vorbacusufletul.wordpress.com/" target="_blank" class="md:space-x-3.5 bg-black/75 flex flex-col flex-1 border-2 border-white hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
@@ -187,10 +186,10 @@
                </div>
                <div class="mt-8">
                   <p class="text-3xl font-bold text-white mb-4">£150</p>
-                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Starter%20Package" class="inline-block">
-                  <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
+                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Starter%20Package"
+                     role="button"
+                     class="inline-block bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
                   Contact Me
-                  </button>
                   </a>
                </div>
             </div>
@@ -209,10 +208,10 @@
                </div>
                <div class="mt-8">
                   <p class="text-3xl font-bold text-white mb-4">£300</p>
-                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Business%20Package" class="inline-block">
-                  <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
+                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Starter%20Package"
+                     role="button"
+                     class="inline-block bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
                   Contact Me
-                  </button>
                   </a>
                </div>
             </div>
@@ -231,10 +230,10 @@
                </div>
                <div class="mt-8">
                   <p class="text-3xl font-bold text-white mb-4">£450</p>
-                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Pro%20Package" class="inline-block">
-                  <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
+                  <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Starter%20Package"
+                     role="button"
+                     class="inline-block bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
                   Contact Me
-                  </button>
                   </a>
                </div>
             </div>
@@ -242,9 +241,10 @@
       </div>
       <footer>
          <div class="flex mt-16">
-            <a href="#nav"
+            <a href="#nav" 
                class="text-center animate-bounce my-8 md:my-4 text-yellow-500 border-2 border-yellow-600 bg-black/40 mb-[2.5em] md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
             <i class="fas fa-arrow-up"></i>
+            <span class="sr-only">Back to top navigation</span>
             </a>
          </div>
          <p class="text-center m-auto mt-10 text-text-main text-xl font-bold bg-black/60">&copy; 2025 Ciprian Pop. All rights reserved.</p>
