@@ -13,6 +13,7 @@ module.exports = {
         'text-main': '#D4D4D4',        // VSCode editor default text color (off-white)
         'text-muted': '#858585',       // Gray for comments or muted text
       },
+      
     },
   },
   plugins: [],

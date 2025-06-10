@@ -67,7 +67,7 @@ header a {
 }
 
 .frontend h3 {
-  @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#D7BA7D]; /* primary */
+  @apply text-center break-words font-extrabold md:text-4xl p-6 text-[#D7BA7D]; /* primary */
 }
 
 .frontend li {
@@ -91,7 +91,7 @@ button {
   @apply m-2 p-2 text-white; /* support-200 */
 }
 .fullstack h3 {
-    @apply text-center break-words font-extrabold text-lg md:text-4xl p-6 text-[#D7BA7D]; /* primary */
+    @apply text-center break-words font-extrabold md:text-4xl p-6 text-[#D7BA7D]; /* primary */
 }
 
 /* Additional Styling */
@@ -100,7 +100,7 @@ body p, h1, h2, a {
 }
 
 .fullstack h3 {
-  @apply text-lg md:text-4xl text-[#D7BA7D]; /* primary */
+  @apply md:text-4xl text-[#D7BA7D]; /* primary */
 }
 
 h2 {
