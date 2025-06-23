@@ -61,7 +61,7 @@ Hi! I'm **Ciprian Pop**, a professional Web Developer passionate about crafting 
 
 ## 📄 Resume
 
-📥 [Download My Resume](media/13.Ciprian_Pop.pdf)
+📥 [Download My Resume](media/C_V_Pop.pdf)
 
 
 Thanks for checking out my portfolio! If you have any feedback, collaboration ideas, or job opportunities. 
