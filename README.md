@@ -63,5 +63,3 @@ Thanks for checking out my portfolio! If you have any feedback, collaboration id
 I’d love to hear from you.
 
 
-ADD Products page 
-
