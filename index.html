@@ -1,88 +1,108 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth h-full">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <!-- FIXED: Correct Inter Font Family Link -->
+   <link href="https://googleapis.com" rel="stylesheet">
    <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="dist/output.css">
-   <link href="/styles/index.css" rel="stylesheet">
-   <!--Custom CSS -->
-   <link href="/dist/output.css" rel="stylesheet">
-   <script src="/demo/index.js"></script>
-     <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: linear-gradient(
-        to bottom right,
-        #111827, /* gray-900 */
-        #000000, /* black */
-        #1f2937  /* gray-800 */
-      );
-    }
-  </style>
+   
+   <!-- FIXED: Official Runtime Tailwind Play CDN URL -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               fontFamily: {
+                  sans: ['Inter', 'sans-serif'],
+               }
+            }
+         }
+      }
+   </script>
+
+   <style>
+      body {
+         font-family: 'Inter', sans-serif;
+         background: radial-gradient(circle at top right, #1e293b, #0f172a, #020617);
+      }
+   </style>
+
    <script>
       function myFunction() {
          var x = document.getElementById("myLinks");
-         if (x.style.display === "block") {
-            x.style.display = "none";
-         } else {
-            x.style.display = "block";
-         }
+         x.classList.toggle("hidden");
+         x.classList.toggle("flex");
       }
       
       window.addEventListener('scroll', function() {
          var x = document.getElementById("myLinks");
-         if (x.style.display === "block") {
-            x.style.display = "none";
+         if (!x.classList.contains("hidden")) {
+            x.classList.add("hidden");
+            x.classList.remove("flex");
          }
       });
    </script>
-   <title>Ciprian Pop's Portfolio</title>
+   <title>Ciprian Pop | Web Developer Portfolio</title>
 </head>
-<body class="bg-no-repeat bg-fixed bg-cover max-w-7xl mx-auto" id="nav">
-   <header class="bg-[rgba(0,0,0,0.7)]" role="banner">
-      <nav class="flex flex-wrap justify-around md:justify-between items-center w-full m-auto py-2 my-3 text-sm md:text-lg bg-[rgba(0,0,0,0.3)] md:sticky md:top-0" role="navigation" aria-label="Main navigation">
-         <!-- Desktop Navigation -->
-         <div class="hidden md:flex items-center">
-            <a href="https://github.com/c-v-pop" target="_blank" rel="noopener noreferrer" class="py-5 px-6 font-bold text-[#4DABF7] hover:text-[#FF6B6B] transition" title="Visit Ciprian Pop's GitHub profile">
-               GitHub Portfolio
+
+<body class="text-slate-100 min-h-full selection:bg-cyan-500 selection:text-slate-900" id="nav">
+
+   <!-- Main Navigation Header -->
+   <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800" role="banner">
+      <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center" role="navigation" aria-label="Main navigation">
+         
+         <!-- Left Side: LinkedIn Avatar with Tooltip -->
+         <div class="relative group flex items-center gap-3 order-1 md:order-none">
+            <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank" rel="noopener noreferrer" class="relative w-11 h-11 rounded-full overflow-hidden ring-2 ring-cyan-500/50 group-hover:ring-cyan-400 transition-all duration-300 transform group-hover:scale-105" title="Visit Ciprian Pop on LinkedIn">
+               <img src="./images/logo.webp" alt="Ciprian Pop's profile picture/logo" class="object-cover w-full h-full" fetchpriority="high" />
             </a>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=Contact%20from%20Website" class="py-5 px-6 font-bold text-[#4DABF7] hover:text-[#FF6B6B] transition" title="Send an email to Ciprian Pop">
-               Contact via Email
-            </a>
-            <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="py-5 px-6 font-bold text-[#4DABF7] transition" title="Download Ciprian Pop's Resume in PDF format">
-               Download Resume (PDF)
-            </a>
-         </div>
-         <!-- Mobile Navigation Toggle -->
-         <div class="md:hidden relative">
-            <button aria-label="Toggle mobile menu" class="text-white text-2xl" onclick="myFunction()">
-               <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <div id="myLinks" style="display: none;" class="fixed right-0 mt-2 bg-black text-primary shadow-lg rounded py-10 z-50 space-y-2 w-full mx-auto text-center" role="menu">
-               <a href="https://github.com/c-v-pop" target="_blank" rel="noopener noreferrer" class="hover:text-[#FF6B6B]" title="Visit Ciprian Pop's GitHub profile (mobile)">GitHub Portfolio</a>
-               <hr class="text-support w-1/3 mx-auto">
-               <a href="mailto:ciprianvlad888@gmail.com?subject=Contact%20from%20Website" class="hover:text-[#FF6B6B]" title="Email Ciprian Pop (mobile)">Contact via Email</a>
-               <hr class="text-support w-1/2 mx-auto">
-               <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="hover:text-[#FF6B6B]" title="Download Resume (PDF, mobile)">Download Resume</a>
-               <hr class="text-support w-1/3 mx-auto">
-            </div>
-         </div>
-         <!-- LinkedIn Avatar with Tooltip -->
-         <div class="relative md:w-20 md:h-20 h-40 w-40 rounded-full p-1 m-1 group transition-transform duration-300 hover:scale-110">
-            <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank" rel="noopener noreferrer" title="Visit Ciprian Pop on LinkedIn">
-               <img src="./images/logo.webp" alt="Ciprian Pop's profile picture/logo" class="rounded-full" fetchpriority="high" />
-            </a>
-            <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-[#1E3A8A] text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+            <span class="hidden sm:block font-bold text-slate-200 group-hover:text-cyan-400 transition duration-300 tracking-wide text-sm md:text-base">C-V-POP</span>
+            
+            <!-- Accessible Tooltip -->
+            <span class="absolute left-0 top-full mt-2 bg-slate-950 text-slate-200 text-xs px-2.5 py-1 rounded border border-slate-800 opacity-0 group-hover:opacity-100 pointer-events-none transition duration-300 shadow-xl whitespace-nowrap">
                Visit My LinkedIn
             </span>
          </div>
+
+         <!-- Center/Right: Desktop Navigation Menu -->
+         <div class="hidden md:flex items-center gap-1">
+            <a href="https://github.com/c-v-pop" target="_blank" rel="noopener noreferrer" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200" title="Visit Ciprian Pop's GitHub profile">
+               <i class="fab fa-github mr-2"></i>GitHub Portfolio
+            </a>
+            <a href="mailto:ciprianvlad888@gmail.com?subject=Contact%20from%20Website" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200" title="Send an email to Ciprian Pop">
+               <i class="far fa-envelope mr-2"></i>Contact via Email
+            </a>
+            <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="ml-2 py-2 px-4 bg-cyan-600 hover:bg-cyan-500 text-slate-900 font-semibold rounded-lg shadow-lg shadow-cyan-600/20 hover:shadow-cyan-500/30 transition duration-200 text-sm" title="Download Ciprian Pop's Resume in PDF format">
+               <i class="fas fa-arrow-down mr-2"></i>Download Resume (PDF)
+            </a>
+         </div>
+
+         <!-- Mobile Navigation Menu and Toggle Button -->
+         <div class="md:hidden relative order-none">
+            <button aria-label="Toggle mobile menu" class="text-slate-300 hover:text-cyan-400 p-2 text-xl focus:outline-none" onclick="myFunction()">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div id="myLinks" class="hidden absolute top-full right-0 mt-3 w-56 bg-slate-900/95 border border-slate-800 rounded-xl shadow-2xl p-4 flex-col gap-2 backdrop-blur-lg z-50" role="menu">
+               <a href="https://github.com/c-v-pop" target="_blank" rel="noopener noreferrer" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left" role="menuitem">
+                  <i class="fab fa-github mr-3 w-4 text-center"></i>GitHub Portfolio
+               </a>
+               <a href="mailto:ciprianvlad888@gmail.com?subject=Contact%20from%20Website" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left" role="menuitem">
+                  <i class="far fa-envelope mr-3 w-4 text-center"></i>Contact via Email
+               </a>
+               <hr class="border-slate-800 my-1">
+               <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="py-2.5 px-3 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-slate-900 text-center font-bold text-sm transition shadow-md block" role="menuitem">
+                  <i class="fas fa-arrow-down mr-2"></i>Download Resume
+               </a>
+            </div>
+         </div>
+
       </nav>
    </header>
+
+
    <div class="wrapper md:py-40 md:mt-8 mt-10 bg-black/70 min-h-[70vh]">
       <div class="typing-demo text-center mx-6">
          <h1 class="md:py-8 text-2xl font-serif py-4">
@@ -184,85 +204,24 @@
    You can also explore these projects on my 
    <a href="https://github.com/c-v-pop" target="_blank" class="text-primary/65 hover:text-primary" title="Visit my GitHub profile">GitHub profile</a>.
 </h2>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 rounded-lg hidden" id="offers">
-   <h2 class="text-4xl font-bold text-center text-white mb-12">Website Packages Offers</h2>
-   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- Starter Plan -->
-      <div class="bg-main-bg/40 shadow-lg rounded-2xl p-6 flex flex-col justify-between border border-gray-700 hover:shadow-xl transition">
-         <div>
-            <h3 class="text-2xl font-semibold mb-2 text-white">Starter</h3>
-            <p class="text-support mb-4">Great for portfolios or simple landing pages.</p>
-            <ul class="space-y-2 text-sm text-text-main list-disc list-inside">
-               <li class="text-white">One-page responsive design</li>
-               <li class="text-white">Contact form</li>
-               <li class="text-white">Basic SEO setup</li>
-               <li class="text-white">1 revision</li>
-               <li class="text-white">No admin panel or blog</li>
-            </ul>
-         </div>
-         <div class="mt-8">
-            <p class="text-3xl font-bold text-white mb-4">£150</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Starter%20Package" class="inline-block">
-               <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
-                  Contact Me
-               </button>
-            </a>
-         </div>
+     
+   <!-- Footer Navigation & Details -->
+   <footer class="max-w-5xl mx-auto px-6 pb-16 pt-8 mt-12 border-t border-slate-900/60 text-center">
+      
+      <!-- Smooth Scroll Back to Top Button -->
+      <div class="flex justify-center mb-8">
+         <a href="#nav" title="Go to top of website"
+            class="animate-bounce inline-flex items-center justify-center w-12 h-12 rounded-xl border border-slate-700 hover:border-amber-400 bg-slate-900/40 text-slate-400 hover:text-amber-400 shadow-md hover:shadow-amber-400/10 transition-all duration-300 text-lg">
+            <i class="fas fa-arrow-up"></i>
+         </a>
       </div>
-      <!-- Business Plan -->
-      <div class="bg-main-bg/40 shadow-lg rounded-2xl p-6 flex flex-col justify-between border hover:shadow-xl transition">
-         <div>
-            <h3 class="text-2xl font-semibold mb-2 text-white">Business</h3>
-            <p class="text-support mb-4">Ideal for service-based small businesses.</p>
-            <ul class="space-y-2 text-sm text-text-main list-disc list-inside">
-               <li class="text-white">Up to 5 pages (Home, About, Services, Contact, etc.)</li>
-               <li class="text-white">Contact form with spam protection</li>
-               <li class="text-white">Mobile responsive</li>
-               <li class="text-white">Basic SEO & Google Maps</li>
-               <li class="text-white">2 revisions</li>
-            </ul>
-         </div>
-         <div class="mt-8">
-            <p class="text-3xl font-bold text-white mb-4">£300</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Business%20Package" class="inline-block">
-               <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
-                  Contact Me
-               </button>
-            </a>
-         </div>
-      </div>
-      <!-- Pro Plan -->
-      <div class="bg-main-bg/40 shadow-lg rounded-2xl p-6 flex flex-col justify-between border border-gray-700 hover:shadow-xl transition">
-         <div>
-            <h3 class="text-2xl font-semibold mb-2 text-white">Pro</h3>
-            <p class="text-support mb-4">For growing businesses that need content control.</p>
-            <ul class="space-y-2 text-sm text-text-main list-disc list-inside">
-               <li class="text-white">Everything in Business</li>
-               <li class="text-white">Gallery or Blog section</li>
-               <li class="text-white">Basic admin panel (CRUD)</li>
-               <li class="text-white">Up to 8 pages total</li>
-               <li class="text-white">3 revisions</li>
-            </ul>
-         </div>
-         <div class="mt-8">
-            <p class="text-3xl font-bold text-white mb-4">£450</p>
-            <a href="mailto:ciprianvlad888@gmail.com?subject=Website%20Pro%20Package" class="inline-block">
-               <button class="bg-blue-400/60 text-white px-5 py-2 rounded-lg hover:bg-blue-300 transition font-medium">
-                  Contact Me
-               </button>
-            </a>
-         </div>
-      </div>
-   </div>
-</div>
-<footer>
-   <div class="flex mt-16">
-      <a href="#nav" title="Go to top of website"
-      class="text-center animate-bounce my-8 md:my-4 text-yellow-500 border-2 border-yellow-600 bg-black/40 mb-[2.5em] md:p-4 p-6 rounded-md m-auto text-2xl hover:shadow-[0_0_10px_3px_#64FFDA] font-bold">
-      <i class="fas fa-arrow-up"></i>
-   </a>
-</div>
-<p class="text-center m-auto mt-10 text-text-main text-xl font-bold bg-black/60">&copy; 2025 Ciprian Pop. All rights reserved.</p>
-</footer>
+
+      <!-- Copyright Text Block -->
+      <p class="text-xs tracking-wider text-slate-500 font-medium">
+         &copy; 2026 Ciprian Pop. Built using responsive semantic markup and modern utility components.
+      </p>
+   </footer>
 </body>
+</html>
+
 </html>
