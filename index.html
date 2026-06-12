@@ -96,7 +96,7 @@
             </div>
          </nav>
       </header>
-      <div class="wrapper md:py-40 md:mt-8 mt-10 min-h-[70vh]">
+      <div class="wrapper md:py-6 min-h-[70vh] bg-slate-950/20 max-w-[65%] mx-auto my-4 rounded-md">
          <div class="typing-demo text-center mx-6">
             <h1 class="md:py-8 text-2xl font-serif py-4">
                Hey! I'm <span class="text-[#D7BA7D] font-extrabold">Ciprian Pop</span>,
@@ -104,7 +104,7 @@
                a passionate <span class="text-accent font-bold">Web Developer</span>
             </h1>
          </div>
-         <p class="text-2xl mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[45%]">
+         <p class="text-2xl md:text-2xl m-auto text-center md:py-8 max-w-[45%]">
             I create <span class="font-bold text-accent">user-friendly</span>,
             <span class="font-bold text-accent">visually polished</span> websites using
             modern tools like HTML, CSS, JavaScript, and frameworks. I focus on clean code,
@@ -114,16 +114,20 @@
       </div>
       </div>
       <!-- Projects Display Container -->
-      <section class="max-w-5xl mx-auto px-6 py-20">
+      <section class="max-w-5xl mx-auto px-6">
          <!-- Perfectly Centered Two-Column Responsive Project Grid -->
          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Gradient Card 1: LaAlexia -->
-            <div class="bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between">
+            <!-- Clickable Card: LaAlexia -->
+            <a href="https://laalexiaatelier.co.uk/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+               title="Visit LaAlexia Beauty Salon Project">
                <div>
                   <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-                     <img src="./images/alexia.webp" alt="LaAlexia Project Layout" class="w-full h-full object-cover opacity-95">
+                     <img src="./images/alexia.webp" alt="LaAlexia Project Layout" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
                   </div>
-                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide">LaAlexia Beauty Salon</h3>
+                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">LaAlexia Beauty Salon</h3>
                   <p class="text-sm text-slate-400 leading-relaxed mb-6">
                      Fully built custom web portal mapping localized styling arrays to Laravel systems. Features intuitive scheduling pipelines, responsive content wrappers, and targeted local optimization parameters.
                   </p>
@@ -131,7 +135,7 @@
                <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
                   Laravel • Tailwind CSS • PHP
                </div>
-            </div>
+            </a>
             <!-- Gradient Card 2: To-Do System -->
             <div class="bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between">
                <div>
@@ -147,30 +151,36 @@
                   PHP MVC • MySQL • Relational
                </div>
             </div>
-            <div class="bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between">
+            <!-- Clickable Card: TapChat -->
+            <a href="https://www.gettapchat.co.uk/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+               title="Visit TapChat Website">
                <div>
                   <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-                     <img src="./images/tapchat.webp" alt="TapChat" class="w-full h-full object-cover opacity-95">
+                     <img src="./images/tapchat.webp" alt="TapChat Interface Presentation" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
                   </div>
-                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide">TapChat</h3>
+                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">TapChat</h3>
                   <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                     TapChat is a live Squarespace website I built by transforming user input and mockups into a functional product. 
-                     I designed and developed the site using the platform’s tools and custom styling, focusing on clean structure, usability, and branding. 
-                     This project strengthened my understanding of responsive design and the customization options available in Squarespace. 
-                     I ensured the layout performed smoothly across all devices — from desktop to mobile — and refined my approach to user-first design within a modern website builder environment.
+                     TapChat is a live Squarespace website I built by transforming user input and mockups into a functional product. I designed and developed the site using the platform’s tools and custom styling, focusing on clean structure, usability, and branding. This project strengthened my understanding of responsive design and the customization options available in Squarespace. I ensured the layout performed smoothly across all devices — from desktop to mobile — and refined my approach to user-first design within a modern website builder environment.
                   </p>
                </div>
                <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
                   Squarespace CMS • Responsive UI Design • User-First Branding
                </div>
-            </div>
-            <div class="bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between">
+            </a>
+            <!-- Clickable Card: Ninety Seven Accounting -->
+            <a href="https://ninetysevenaccounting.co.uk/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+               title="Visit Ninety Seven Accounting Website">
                <div>
                   <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-                     <!-- Remember to upload the accounting site image to your images folder, or update the file name below -->
-                     <img src="./images/accounting.png" alt="Ninety Seven Accounting Corporate Web Design" class="w-full h-full object-cover opacity-95">
+                     <img src="./images/accounting.png" alt="Ninety Seven Accounting Corporate Web Design" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
                   </div>
-                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide">Ninety Seven Accounting</h3>
+                  <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">Ninety Seven Accounting</h3>
                   <p class="text-sm text-slate-400 leading-relaxed mb-6">
                      Fully engineered and published a corporate web platform for Ninety Seven Accounting using WordPress. Transformed the client’s service briefs into a clean, modern layout tailored for UK financial regulations. Handled the complete end-to-end production pipeline, including custom domain name configuration, DNS zone management, secure publishing, and optimizing the site structure to capture local business traffic.
                   </p>
@@ -178,19 +188,19 @@
                <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
                   WordPress Engine • Domain DNS Configuration • Production Launch
                </div>
-            </div>
+            </a>
          </div>
       </section>
-<h2 class="text-center mb-4 break-before-auto text-xl max-w-2xl m-auto pb-4 text-zinc-300">
-   You can also explore these projects on my 
-   <a href="https://github.com/c-v-pop" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      class="text-cyan-600 font-semibold hover:text-cyan-400 underline decoration-cyan-500/30 hover:decoration-cyan-400 transition-all duration-300 ease-in-out ml-1" 
-      title="Visit my GitHub profile">
-      GitHub profile
-   </a>.
-</h2>
+      <h2 class="text-center mb-4 break-before-auto text-xl max-w-2xl m-auto pb-4 text-zinc-300">
+         You can also explore these projects on my 
+         <a href="https://github.com/c-v-pop" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="text-cyan-600 font-semibold hover:text-cyan-400 underline decoration-cyan-500/30 hover:decoration-cyan-400 transition-all duration-300 ease-in-out ml-1" 
+            title="Visit my GitHub profile">
+         GitHub profile
+         </a>.
+      </h2>
       <!-- Footer Navigation & Details -->
       <footer class="max-w-5xl mx-auto px-6 pb-16 pt-8 mt-12 border-t border-slate-900/60 text-center">
          <!-- Smooth Scroll Back to Top Button -->
