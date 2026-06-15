@@ -3,9 +3,9 @@
 Welcome to my personal portfolio website — a showcase of my journey, experience, and the work I’m most proud of as a **Web Developer**. 
 Built using **HTML, TailwindCSS, and JavaScript**, this responsive site reflects my front-end and full-stack development skills.
 
-> ✨ Live Demo https://c-v-pop.github.io/portfolio/
+> ✨ Live Demo: [https://c-v-pop.co.uk](https://c-v-pop.co.uk)
 >
-> 06.05.2025 --- Started integrating Laravel into my existing website
+> 📅 *06.05.2025* — Started integrating Laravel into my existing website
 
 ---
 
@@ -53,13 +53,8 @@ Hi! I'm **Ciprian Pop**, a professional Web Developer passionate about crafting 
 
 ## 📬 Contact
 
-- 📧 Email: [ciprianvlad888@gmail.com](mailto:c.pop@myyahoo.com)
+- 📧 Email: [ciprianvlad888@gmail.com](mailto:ciprianvlad888@gmail.com)
 - 💼 LinkedIn: [Ciprian Pop](https://www.linkedin.com/in/ciprian-pop-9a5169157/)
 - 🐙 GitHub: [@c-v-pop](https://github.com/c-v-pop)
 
-
-Thanks for checking out my portfolio! If you have any feedback, collaboration ideas, or job opportunities. 
-
-I’d love to hear from you.
-
-
+Thanks for checking out my portfolio! If you have any feedback, collaboration ideas, or job opportunities, I’d love to hear from you.
