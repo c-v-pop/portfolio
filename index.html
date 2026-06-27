@@ -1,125 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth h-full">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <!-- FIXED: Correct Inter Font Family Link -->
-      <link href="https://googleapis.com" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
-      <!-- FIXED: Official Runtime Tailwind Play CDN URL -->
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script>
-         tailwind.config = {
-            theme: {
-               extend: {
-                  fontFamily: {
-                     sans: ['Inter', 'sans-serif'],
-                  }
-               }
-            }
-         }
-      </script>
-      <style>
-         body {
-         font-family: 'Inter', sans-serif;
-         /* Base gradient fall-back layer */
-         background-image: radial-gradient(circle at top right, #1e293b, #0f172a, #020617);
-         background-size: cover;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         }
-         /* Target the main background texture with responsive cover parameters */
-         .bg-soul-texture {
-         background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.85), rgba(15, 23, 42, 0.95)), url('./images/your-background-name.jpg');
-         background-size: cover;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         }
-      </style>
-      <script>
-         function myFunction() {
-            var x = document.getElementById("myLinks");
-            x.classList.toggle("hidden");
-            x.classList.toggle("flex");
-         }
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <!-- FIXED: Correct Inter Font Family Link -->
+   <link href="https://googleapis.com" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./styles/index.css">
+   <!-- FIXED: Official Runtime Tailwind Play CDN URL -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="dist/main.js"></script>
+   <title>Ciprian Pop | Web Developer Portfolio</title>
+</head>
+<body class="text-slate-100 min-h-full selection:bg-cyan-500 selection:text-slate-900" id="nav">
+   <!-- Main Navigation Header (Your Active Choice) -->
+   <header class="sticky top-0 z-50 backdrop-blur-md bg-zinc-950/90 border-b border-cyan-500/30 shadow-[0_4px_30px_rgba(0,0,0,0.8)] shadow-cyan-950/20" role="banner">
+      <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center" role="navigation" aria-label="Main navigation">
          
-         window.addEventListener('scroll', function() {
-            var x = document.getElementById("myLinks");
-            if (!x.classList.contains("hidden")) {
-               x.classList.add("hidden");
-               x.classList.remove("flex");
-            }
-         });
-      </script>
-      <title>Ciprian Pop | Web Developer Portfolio</title>
-   </head>
-   <body class="text-slate-100 min-h-full selection:bg-cyan-500 selection:text-slate-900" id="nav">
-      <!-- Main Navigation Header (Your Active Choice) -->
-     <header class="sticky top-0 z-50 backdrop-blur-md bg-zinc-950/90 border-b border-cyan-500/30 shadow-[0_4px_30px_rgba(0,0,0,0.8)] shadow-cyan-950/20" role="banner">
-   <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center" role="navigation" aria-label="Main navigation">
-      
-      <!-- Left Side: LinkedIn Avatar with Tooltip (REMOVED order-1 to default to the left) -->
-      <div class="relative group flex items-center gap-3">
-         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="relative w-11 h-11 rounded-full overflow-hidden ring-2 ring-cyan-500/50 group-hover:ring-cyan-400 transition-all duration-300 transform group-hover:scale-105" title="Visit Ciprian Pop on LinkedIn">
-            <img src="./images/logo.webp" alt="Ciprian Pop's profile picture/logo" class="object-cover w-full h-full" fetchpriority="high" />
-         </a>
-         <span class="hidden sm:block font-bold text-slate-200 group-hover:text-cyan-400 transition duration-300 tracking-wide text-sm md:text-base">C-V-POP</span>
-      </div>
-
-      <!-- Center/Right: Desktop Navigation Menu -->
-      <div class="hidden md:flex items-center gap-1">
-         <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200">
-            <i class="fab fa-github mr-2"></i>GitHub Portfolio
-         </a>
-         <a href="mailto:ciprianvlad888@gmail.com" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200">
-            <i class="far fa-envelope mr-2"></i>Contact via Email
-         </a>
-         <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="ml-2 py-2 px-4 bg-cyan-600 hover:bg-cyan-500 text-slate-900 font-semibold rounded-lg shadow-lg shadow-cyan-600/20 hover:shadow-cyan-500/30 transition duration-200 text-sm">
-            <i class="fas fa-arrow-down mr-2"></i>Download Resume (PDF)
-         </a>
-      </div>
-
-      <!-- Mobile Navigation Menu and Toggle Button -->
-      <div class="md:hidden relative">
-         <button aria-label="Toggle mobile menu" class="text-slate-300 hover:text-cyan-400 p-2 text-xl focus:outline-none" onclick="myFunction()">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-         </button>
-         <!-- FIXED: Now aligns perfectly to the right side of your page container -->
-         <div id="myLinks" class="hidden absolute top-full right-0 mt-3 w-56 bg-slate-900/95 border border-slate-800 rounded-xl shadow-2xl p-4 flex-col gap-2 backdrop-blur-lg z-50" role="menu">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left"><i class="fab fa-github mr-3 w-4 text-center"></i>GitHub Portfolio</a>
-            <a href="mailto:ciprianvlad888@gmail.com" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left"><i class="far fa-envelope mr-3 w-4 text-center"></i>Contact via Email</a>
-            <hr class="border-slate-800 my-1">
-            <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="py-2.5 px-3 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-slate-900 text-center font-bold text-sm transition shadow-md block">
-               <i class="fas fa-arrow-down mr-2"></i>Download Resume
+         <!-- Left Side: LinkedIn Avatar with Typing Effect -->
+         <div class="relative group flex items-center gap-3">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="relative w-11 h-11 rounded-full overflow-hidden ring-2 ring-cyan-500/50 group-hover:ring-cyan-400 transition-all duration-300 transform group-hover:scale-105" title="Visit Ciprian Pop on LinkedIn">
+               <img src="./images/logo.webp" alt="Ciprian Pop's profile picture/logo" class="object-cover w-full h-full" fetchpriority="high" />
             </a>
+            <!-- ANIMATED: Pure CSS Typing Effect & Blinking Cursor -->
+            <span class="hidden sm:inline-block font-mono font-bold text-slate-200 group-hover:text-cyan-400 tracking-wide text-sm md:text-base border-r-2 border-cyan-500 pr-1 animate-typing whitespace-nowrap overflow-hidden max-w-[0ch]">
+               C-V-POP
+            </span>
          </div>
-      </div>
+         
+         <!-- Center/Right: Desktop Navigation Menu -->
+         <div class="hidden md:flex items-center gap-1">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200">
+               <i class="fab fa-github mr-2"></i>GitHub Portfolio
+            </a>
+            <a href="mailto:ciprianvlad888@gmail.com" class="py-2 px-4 rounded-lg font-medium text-slate-300 hover:text-cyan-400 hover:bg-slate-800/60 transition duration-200">
+               <i class="far fa-envelope mr-2"></i>Contact via Email
+            </a>
+            
+            <!-- ANIMATED: Glowing / Cursive SVG Light Border Button -->
+            <div class="relative group/btn ml-2">
+               <!-- Animated SVG glowing tracing border border -->
+               <svg class="absolute inset-0 w-full h-full pointer-events-none rounded-lg" xmlns="http://w3.org">
+                  <rect class="w-full h-full fill-none stroke-cyan-400 stroke-[2] [stroke-dasharray:300] [stroke-dashoffset:300] group-hover/btn:animate-border-trace transition-all duration-300" rx="8" />
+               </svg>
+               <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="relative block py-2 px-4 bg-cyan-600/10 border border-cyan-500/30 hover:bg-cyan-500 text-cyan-400 hover:text-slate-900 font-semibold rounded-lg transition-all duration-300 text-sm shadow-[0_0_15px_rgba(6,182,212,0.1)] hover:shadow-[0_0_25px_rgba(6,182,212,0.5)]">
+                  <i class="fas fa-arrow-down mr-2"></i>Download Resume (PDF)
+               </a>
+            </div>
+         </div>
+         
+         <!-- Mobile Navigation Menu and Toggle Button -->
+         <div class="md:hidden relative">
+            <button aria-label="Toggle mobile menu" class="text-slate-300 hover:text-cyan-400 p-2 text-xl focus:outline-none" onclick="myFunction()">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div id="myLinks" class="hidden absolute top-full right-0 mt-3 w-56 bg-slate-900/95 border border-slate-800 rounded-xl shadow-2xl p-4 flex-col gap-2 backdrop-blur-lg z-50" role="menu">
+               <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left"><i class="fab fa-github mr-3 w-4 text-center"></i>GitHub Portfolio</a>
+               <a href="mailto:ciprianvlad888@gmail.com" class="py-2 px-3 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-cyan-400 font-medium transition text-sm text-left"><i class="far fa-envelope mr-3 w-4 text-center"></i>Contact via Email</a>
+               <hr class="border-slate-800 my-1">
+               <a href="media/C_V_Pop.pdf" download="C_V_Pop.pdf" class="py-2.5 px-3 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-slate-900 text-center font-bold text-sm transition shadow-md block">
+                  <i class="fas fa-arrow-down mr-2"></i>Download Resume
+               </a>
+            </div>
+         </div>
+         
+      </nav>
+   </header>
+<div class="relative wrapper md:py-6 bg-slate-950/60 md:max-w-[65%] mx-auto my-8 rounded-2xl border border-cyan-500/30 shadow-[0_0_20px_rgba(6,182,212,0.15),inset_0_0_15px_rgba(6,182,212,0.05)] overflow-hidden transition-all duration-300 hover:border-cyan-400 group/hero" id="neon-hero-box">
+   
+   <!-- Interactive Dynamic Neon Pointer Tracker (Controlled via JS below) -->
+   <div id="neon-glow-cursor" class="absolute pointer-events-none w-48 h-48 bg-cyan-500/10 blur-[50px] rounded-full opacity-0 transition-opacity duration-500 mix-blend-screen -translate-x-1/2 -translate-y-1/2 z-0"></div>
 
-   </nav>
-</header>
-      <div class="wrapper md:py-6 bg-slate-950/20 md:max-w-[65%] mx-auto my-4 rounded-md">
-         <div class="typing-demo text-center mx-6">
-            <h1 class="md:py-8 text-2xl font-serif py-4">
-               Hey! I'm <span class="text-[#D7BA7D] font-extrabold">Ciprian Pop</span>,
-               <br class="md:hidden block">
-               a passionate <span class="text-accent font-bold">Web Developer</span>
-            </h1>
-         </div>
-         <p class="text-lg md:text-2xl md:mx-auto mx-10 text-center md:py-8 md:max-w-[45%]">
-            I create <span class="font-bold text-accent">user-friendly</span>,
-            <span class="font-bold text-accent">visually polished</span> websites using
-            modern tools like HTML, CSS, JavaScript, and frameworks. I focus on clean code,
-            smart design, and helping clients stand out online.
-         </p>
-      </div>
-      </div>
-      </div>
-      <!-- Projects Display Container -->
-     <section class="max-w-6xl mx-auto px-6 py-12" id="projects">
+   <!-- Constant Ambient background glow pods -->
+   <div class="absolute -top-12 left-1/4 w-96 h-32 bg-cyan-500/10 blur-[80px] rounded-full pointer-events-none animate-pulse"></div>
+
+   <div class="text-center mx-6 relative z-10">
+      <!-- Neon Text glow applied via drop-shadow utilities -->
+      <h1 class="md:py-8 text-3xl font-serif py-4 tracking-wide text-slate-100">
+         Hey! I'm <span class="text-[#D7BA7D] font-extrabold drop-shadow-[0_0_12px_rgba(215,186,125,0.4)]">Ciprian Pop</span>,
+         <br class="md:hidden block">
+         a passionate <span class="text-cyan-400 font-bold drop-shadow-[0_0_15px_rgba(6,182,212,0.6)] animate-pulse">Web Developer</span>
+      </h1>
+   </div>
+   <p class="text-lg md:text-xl md:mx-auto mx-10 text-center md:pb-8 md:max-w-[75%] text-slate-300 relative z-10 leading-relaxed">
+      I create <span class="font-bold text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">user-friendly</span>,
+      <span class="font-bold text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">visually polished</span> websites using
+      modern tools like HTML, CSS, JavaScript, and frameworks. I focus on clean code,
+      smart design, and helping clients stand out online.
+   </p>
+</div>
+</div>
+</div>
+<!-- Projects Display Container -->
+<section class="max-w-6xl mx-auto px-6 py-12" id="projects">
    
    <!-- Perfectly Centered Two-Column Responsive Project Grid -->
    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -128,58 +103,70 @@
       <a href="https://laalexiaatelier.co.uk/" 
          target="_blank" 
          rel="noopener noreferrer" 
-         class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+         class="project-card group relative bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-400 flex flex-col justify-between block cursor-pointer overflow-hidden transform-gpu" 
          title="Visit LaAlexia Beauty Salon Project">
-         <div>
+         
+         <!-- Interactive Mouse-Tracking Glow Layer -->
+         <div class="card-glow absolute pointer-events-none w-56 h-56 bg-cyan-500/10 blur-[60px] rounded-full opacity-0 transition-opacity duration-300 mix-blend-screen -translate-x-1/2 -translate-y-1/2 z-0"></div>
+
+         <div class="relative z-10">
             <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-               <img src="./images/alexia.webp" alt="LaAlexia Project Layout" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
+               <img src="./images/alexia.webp" alt="LaAlexia Project Layout" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ease-out">
             </div>
-            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">LaAlexia Beauty Salon</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-6">
+            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300 drop-shadow-[0_0_8px_transparent] group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">LaAlexia Beauty Salon</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-6 group-hover:text-slate-300 transition-colors duration-300">
                Fully built custom web portal mapping localized styling arrays to Laravel systems. Features intuitive scheduling pipelines, responsive content wrappers, and targeted local optimization parameters.
             </p>
          </div>
-         <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
+         <div class="relative z-10 text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto transition-all duration-300 group-hover:bg-cyan-400 group-hover:text-slate-950 group-hover:border-cyan-300">
             Laravel • Tailwind CSS • PHP
          </div>
       </a>
-
+      
       <!-- Card 2: Laravel Task Engine -->
       <a href="https://github.com/c-v-pop/to-do-list" 
          target="_blank" 
          rel="noopener noreferrer" 
-         class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+         class="project-card group relative bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-400 flex flex-col justify-between block cursor-pointer overflow-hidden transform-gpu" 
          title="Visit my Laravel To-Do List Repository">
-         <div>
+         
+         <!-- Interactive Mouse-Tracking Glow Layer -->
+         <div class="card-glow absolute pointer-events-none w-56 h-56 bg-cyan-500/10 blur-[60px] rounded-full opacity-0 transition-opacity duration-300 mix-blend-screen -translate-x-1/2 -translate-y-1/2 z-0"></div>
+
+         <div class="relative z-10">
             <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-               <img src="./images/dolist.jpg" alt="Task Application Layout" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
+               <img src="./images/dolist.jpg" alt="Task Application Layout" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ease-out">
             </div>
-            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">Laravel Task Engine</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-6">
+            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300 drop-shadow-[0_0_8px_transparent] group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Laravel Task Engine</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-6 group-hover:text-slate-300 transition-colors duration-300">
                Engineered dynamically to handle complete backend CRUD operations. Employs clean MVC design frameworks, secure authentication gates, and relational data query pipelines.
             </p>
          </div>
-         <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
+         <div class="relative z-10 text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto transition-all duration-300 group-hover:bg-cyan-400 group-hover:text-slate-950 group-hover:border-cyan-300">
             PHP MVC • MySQL • Relational
          </div>
       </a>
 
-      <!-- Card 3: TapChat -->
+      <!-- Card 3: TapChat (Kept Hidden as per your original file template settings) -->
       <a href="https://www.gettapchat.co.uk/" 
          target="_blank" 
          rel="noopener noreferrer" 
-         class="hidden group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+         class="hidden project-card group relative bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-400 flex flex-col justify-between block cursor-pointer overflow-hidden transform-gpu" 
          title="Visit TapChat Website">
-         <div>
+         
+         <!-- Interactive Mouse-Tracking Glow Layer -->
+         <div class="card-glow absolute pointer-events-none w-56 h-56 bg-cyan-500/10 blur-[60px] rounded-full opacity-0 transition-opacity duration-300 mix-blend-screen -translate-x-1/2 -translate-y-1/2 z-0"></div>
+
+         <div class="relative z-10">
             <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-               <img src="./images/tapchat.webp" alt="TapChat Interface Presentation" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
+               <img src="./images/tapchat.webp" alt="TapChat Interface Presentation" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ease-out">
             </div>
-            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">TapChat</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-6">
-               TapChat is a live Squarespace website I built by transforming user input and mockups into a functional product. I designed and developed the site using the platform’s tools and custom styling, focusing on clean structure, usability, and branding. This project strengthened my understanding of responsive design and the customization options available in Squarespace. I ensured the layout performed smoothly across all devices — from desktop to mobile — and refined my approach to user-first design within a modern website builder environment.
+            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300 drop-shadow-[0_0_8px_transparent] group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">TapChat</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-6 group-hover:text-slate-300 transition-colors duration-300">
+               TapChat is a live Squarespace website built by transforming user inputs into a functional responsive system using structural framework parameters.
             </p>
          </div>
-         <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
+         <div class="relative z-10 text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto transition-all duration-300 group-hover:bg-cyan-400 group-hover:text-slate-950 group-hover:border-cyan-300">
             Squarespace CMS • Responsive UI Design • User-First Branding
          </div>
       </a>
@@ -188,47 +175,51 @@
       <a href="https://ninetysevenaccounting.co.uk/" 
          target="_blank" 
          rel="noopener noreferrer" 
-         class="group bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-950/20 flex flex-col justify-between block cursor-pointer" 
+         class="project-card group relative bg-gradient-to-b from-zinc-950 via-zinc-900 to-slate-900 border border-slate-800/80 rounded-2xl p-6 shadow-2xl transition-all duration-300 hover:border-cyan-400 flex flex-col justify-between block cursor-pointer overflow-hidden transform-gpu" 
          title="Visit Ninety Seven Accounting Website">
-         <div>
+         
+         <!-- Interactive Mouse-Tracking Glow Layer -->
+         <div class="card-glow absolute pointer-events-none w-56 h-56 bg-cyan-500/10 blur-[60px] rounded-full opacity-0 transition-opacity duration-300 mix-blend-screen -translate-x-1/2 -translate-y-1/2 z-0"></div>
+
+         <div class="relative z-10">
             <div class="aspect-video w-full rounded-xl overflow-hidden border border-slate-800/50 mb-5 bg-slate-950">
-               <img src="./images/accounting.png" alt="Ninety Seven Accounting Corporate Web Design" class="w-full h-full object-cover opacity-95 group-hover:scale-[1.01] transition duration-500">
+               <img src="./images/accounting.png" alt="Ninety Seven Accounting Corporate Web Design" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 ease-out">
             </div>
-            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300">Ninety Seven Accounting</h3>
-            <p class="text-sm text-slate-400 leading-relaxed mb-6">
-               Fully engineered and published a corporate web platform for Ninety Seven Accounting using WordPress. Transformed the client’s service briefs into a clean, modern layout tailored for UK financial regulations. Handled the complete end-to-end production pipeline, including custom domain name configuration, DNS zone management, secure publishing, and optimizing the site structure to capture local business traffic.
+            <h3 class="text-xl font-bold text-white mb-3 tracking-wide group-hover:text-cyan-400 transition-colors duration-300 drop-shadow-[0_0_8px_transparent] group-hover:drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Ninety Seven Accounting</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-6 group-hover:text-slate-300 transition-colors duration-300">
+               Fully engineered and published a corporate web platform for Ninety Seven Accounting using WordPress. Handled complete DNS management and optimized structural layouts.
             </p>
          </div>
-         <div class="text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto">
+         <div class="relative z-10 text-xs font-mono text-cyan-400 bg-cyan-950/30 border border-cyan-900/40 px-3 py-1.5 rounded-lg w-fit mt-auto transition-all duration-300 group-hover:bg-cyan-400 group-hover:text-slate-950 group-hover:border-cyan-300">
             WordPress Engine • Domain DNS Configuration • Production Launch
          </div>
       </a>
 
    </div>
 </section>
-      <h2 class="text-center mb-4 break-before-auto text-xl max-w-2xl m-auto mt-2 pb-4 text-zinc-300">
-         You can also explore these projects on my 
-         <a href="https://github.com/c-v-pop" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="text-cyan-600 font-semibold hover:text-cyan-400 underline decoration-cyan-500/30 hover:decoration-cyan-400 transition-all duration-300 ease-in-out ml-1" 
-            title="Visit my GitHub profile">
-         GitHub profile
-         </a>.
-      </h2>
-      <!-- Footer Navigation & Details -->
-      <footer class="max-w-5xl mx-auto px-6 pb-16 mt-12 border-t border-slate-900/60 text-center">
-         <!-- Smooth Scroll Back to Top Button -->
-         <div class="flex justify-center mb-8">
-            <a href="#nav" title="Go to top of website"
-               class="animate-bounce inline-flex items-center justify-center w-12 h-12 rounded-xl border border-slate-700 hover:border-amber-400 bg-slate-900/40 text-slate-400 hover:text-amber-400 shadow-md hover:shadow-amber-400/10 transition-all duration-300 text-lg">
-            <i class="fas fa-arrow-up"></i>
-            </a>
-         </div>
-         <!-- Copyright Text Block -->
-         <p class="text-xs tracking-wider text-slate-500 font-medium">
-            &copy; 2026 Ciprian Pop. Built using responsive semantic markup and modern utility components.
-         </p>
-      </footer>
-   </body>
+<h2 class="text-center mb-4 break-before-auto text-xl max-w-2xl m-auto mt-2 pb-4 text-zinc-300">
+   You can also explore these projects on my 
+   <a href="https://github.com/c-v-pop" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   class="text-cyan-600 font-semibold hover:text-cyan-400 underline decoration-cyan-500/30 hover:decoration-cyan-400 transition-all duration-300 ease-in-out ml-1" 
+   title="Visit my GitHub profile">
+   GitHub profile
+</a>.
+</h2>
+<!-- Footer Navigation & Details -->
+<footer class="max-w-5xl mx-auto px-6 pb-16 mt-12 border-t border-slate-900/60 text-center">
+   <!-- Smooth Scroll Back to Top Button -->
+   <div class="flex justify-center mb-8">
+      <a href="#nav" title="Go to top of website"
+      class="animate-bounce inline-flex items-center justify-center w-12 h-12 rounded-xl border border-slate-700 hover:border-amber-400 bg-slate-900/40 text-slate-400 hover:text-amber-400 shadow-md hover:shadow-amber-400/10 transition-all duration-300 text-lg">
+      <i class="fas fa-arrow-up"></i>
+   </a>
+</div>
+<!-- Copyright Text Block -->
+<p class="text-xs tracking-wider text-slate-500 font-medium">
+   &copy; 2026 Ciprian Pop. Built using responsive semantic markup and modern utility components.
+</p>
+</footer>
+</body>
 </html>
