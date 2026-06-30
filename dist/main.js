@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       function renderCursorLoop() {
-         posX += (mouseX - posX) * 0.15;
-         posY += (mouseY - posY) * 0.15;
+         posX += (mouseX - posX) * 0.2;
+         posY += (mouseY - posY) * 0.2;
          cursorGlow.style.left = `${posX}px`;
          cursorGlow.style.top = `${posY}px`;
          requestAnimationFrame(renderCursorLoop);
