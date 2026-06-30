@@ -95,3 +95,6 @@ textarea,
 	transform: translate(-50%, -50%) scale(0);
 	/* Cleanly hide center core to expose maximum inverted surface area */
 }
+.hero-capsule {
+    animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
